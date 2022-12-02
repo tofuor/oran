@@ -1,0 +1,53 @@
+{
+    "name": "pt2",
+    "description": "pt2 policy type",
+    "policy_type_id": 1,
+    "create_schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "QoE_PT2_0.1.0",
+        "description": "QoE policy type",
+        "type": "object",
+        "properties": {
+            "scope": {
+                "type": "object",
+                "properties": {
+                    "ueId": {
+                        "type": "string"
+                    },
+                    "sliceId": {
+                        "type": "string"
+                    },
+                    "qosId": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "ueId",
+                    "groupId",
+                    "qosId"
+                ]
+            },
+            "statement": {
+                "type": "object",
+                "properties": {
+                    "initial_buffering": {
+                        "type": "number"
+                    },
+                    "reBuffFreq": {
+                        "type": "number"
+                    },
+                    "stallRatio": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "initial_buffering",
+                    "reBuffFreq",
+                    "stallRatio"
+                ]
+            }
+        }
+    }
+}

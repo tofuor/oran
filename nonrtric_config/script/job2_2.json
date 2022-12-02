@@ -1,7 +1,0 @@
-{
-  "info_type_id": "ExampleInformationTypeKafka",
-  "job_result_uri": "http://localhost:8080/ei-coordinator",
-  "job_owner": "job1owner",
-  "status_notification_uri": "http://localhost:8080/ei-coordinator",
-  "job_definition": {}
-}

@@ -1,7 +1,7 @@
 {
-  "info_type_id": "ExampleInformationTypeKafka",
-  "job_result_uri": "http://localhost:8089",
-  "job_owner": "job1owner",
-  "status_notification_uri": "http://localhost:8089/",
+  "info_type_id": "Kafka Information",
+  "job_result_uri": "http:localhost:8887",
+  "job_owner": "job2owner",
+  "status_notification_uri": "http:localhost:8887/status",
   "job_definition": {}
 }

@@ -1,7 +1,7 @@
 {
   "info_type_id": "STD_Fault_Messages",
-  "job_result_uri": "<url-for-job-data-delivery>",
+  "job_result_uri": "http:localhost:8888",
   "job_owner": "job3owner",
-  "status_notification_uri": "<url-for-job-status-delivery>",
+  "status_notification_uri": "http:localhost:8888/status",
   "job_definition": {}
 }

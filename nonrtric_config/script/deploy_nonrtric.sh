@@ -5,12 +5,12 @@ echo ""
 echo "A1 policy Management Service"
 docker run -d --rm -v /home/oran/Desktop/nonrtric_config/a1policymanagementservice/application_configuration_SDNC.json:/opt/app/policy-agent/data/application_configuration.json -p 8081:8081 -p 8433:8433 --network=nonrtric-docker-net --name=policy-agent-container nexus3.o-ran-sc.org:10002/o-ran-sc/nonrtric-plt-a1policymanagementservice:2.4.1
 
-echo ""
-
-echo "SDNC A1 Controller"
-cd /home/oran/Desktop/nonrtric_config/sdnc_a1controller/
-docker-compose up -d
-cd /home/oran/Desktop/nonrtric_config/script
+# echo ""
+# 
+# echo "SDNC A1 Controller"
+# cd /home/oran/Desktop/nonrtric_config/sdnc_a1controller/
+# docker-compose up -d
+# cd /home/oran/Desktop/nonrtric_config/script
 
 echo ""
 
@@ -54,9 +54,10 @@ echo ""
 echo "App Catalogue Service"
 docker run -d --rm -p 8680:8680 -p 8633:8633 --network=nonrtric-docker-net --name=rapp-catalogue-service nexus3.o-ran-sc.org:10002/o-ran-sc/nonrtric-plt-rappcatalogue:1.1.0
 
+echo ""
 
 echo "deploy finish, please wait a moment to make sure container are ready"
 sleep 30s
-echo "check for each container......................."
+echo "checking for each container......................."
 sh check_deploy.sh
 

@@ -1,12 +1,12 @@
 {
   "types": [
      {
-        "id": "ExampleInformationType",
+        "id": "DMaaP MR Information",
         "dmaapTopicUrl": "/events/unauthenticated.dmaapadp.json/dmaapadapterproducer/msgs?timeout=15000&limit=100",
         "useHttpProxy": false
      },
      {
-      "id": "ExampleInformationTypeKafka",
+      "id": "Kafka Information",
       "kafkaInputTopic": "unauthenticated.dmaapadp_kafka.text",
       "useHttpProxy": false
    }
