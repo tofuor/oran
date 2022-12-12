@@ -12,6 +12,9 @@ curl -X PUT -v "http://localhost:8085/a1-p/policytypes/1" -H "accept: applicatio
 sleep 5
 curl -X PUT -v "http://localhost:8085/a1-p/policytypes/2" -H "accept: application/json" \
  -H "Content-Type: application/json" --data-binary @osc_pt2.json
+sleep 5
+curl -X PUT -v "http://localhost:8085/a1-p/policytypes/3" -H "accept: application/json" \
+ -H "Content-Type: application/json" --data-binary @osc_pt3.json
 
 echo ""
 echo "***************************put policy type in nearRT***************************"

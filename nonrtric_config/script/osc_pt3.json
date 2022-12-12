@@ -1,7 +1,7 @@
 {
     "name": "pt3",
     "description": "pt3 policy type",
-    "policy_type_id": 1,
+    "policy_type_id": 3,
     "create_schema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "title": "TS_PT2_0.1.0",
@@ -36,10 +36,10 @@
                 "type": "object",
                 "properties": {
                     "cell_id_list": {
-                        "type": "string"
+                        "type": "boolean"
                     },
                     "preference": {
-                        "type": "string"
+                        "type": "boolean"
                     },
                     "dual connectivity": {
                         "type": "boolean"
