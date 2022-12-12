@@ -1,7 +1,0 @@
-{
-  "info_type_id": "DMaaP MR Information",
-  "job_result_uri": "http:localhost:8886",
-  "job_owner": "job1owner",
-  "status_notification_uri": "http:localhost:8886/status",
-  "job_definition": {}
-}
