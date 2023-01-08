@@ -11,15 +11,15 @@ spring:
         wiretap: true
       routes:
       - id: A1-Policy
-        uri: https://policy-agent-container:8433
+        uri: https://a1-policy-agent:8433
         predicates:
         - Path=/a1-policy/**
       - id: A1-EI-P
-        uri: https://information-service-container:8434
+        uri: https://information-coordinator-service:8434
         predicates:
         - Path=/data-producer/**
       - id: A1-EI-C
-        uri: https://information-service-container:8434
+        uri: https://information-coordinator-service:8434
         predicates:
         - Path=/data-consumer/**
 management:

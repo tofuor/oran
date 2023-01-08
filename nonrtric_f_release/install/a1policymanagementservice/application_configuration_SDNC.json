@@ -1,17 +1,17 @@
 {
-   "config": {   
+   "config": {
       "controller": [
          {
-             "name": "a1controller",
-             "baseUrl": "https://a1controller:8443",
-             "userName": "admin",
-             "password": "Kp8bJ4SXszM0WXlhak3eHlcse2gAw84vaoGGmJvUy2U"
+            "name": "a1controller",
+            "baseUrl": "https://a1controller:8443",
+            "userName": "admin",
+            "password": "Kp8bJ4SXszM0WXlhak3eHlcse2gAw84vaoGGmJvUy2U"
          }
       ],
       "ric": [
          {
             "name": "ric1",
-            "baseUrl": "http://192.168.239.141:8085/",
+            "baseUrl": "http://localhost:8085/",
             "managedElementIds": [
                "kista_1",
                "kista_2"
@@ -19,19 +19,11 @@
          },
          {
             "name": "ric2",
-            "baseUrl": "http://192.168.239.137:32080/a1mediator",
+            "baseUrl": "http://192.168.122.65:32080/a1mediator",
             "managedElementIds": [
                "kista_3",
                "kista_4"
             ]
-         #},
-         #{
-         #   "name": "ric3",
-         #   "baseUrl": "http://ric3:8085/",
-         #   "managedElementIds": [
-         #      "kista_5",
-         #      "kista_6"
-         #   ]
          }
       ]
    }
