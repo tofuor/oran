@@ -1,0 +1,95 @@
+@startuml Register Provider
+actor rAppCatalogue
+participant rAppManager
+participant "consumer rApp" as capp
+participant "provider rApp" as papp
+box "CAPIF Internal"
+participant capifcore
+participant providermanager
+participant helmmanager
+participant publishservice
+participant invokerservice
+participant discoverservice
+participant securityservice
+participant eventservice
+participant loggingservice
+end box
+
+alt Regtister Consumer rApp
+    rAppCatalogue->rAppManager: Register consumer \nrApp
+    alt#coral #coral Register Invoker
+        rAppManager->capifcore: Register invoker with\n APIInvokerEnrolmentDetails
+        capifcore->invokerservice: Register invoker
+        invokerservice->invokerservice: Create apiInvokerId and\n onboardingSecret
+        invokerservice->publishservice: Get available services
+        publishservice->invokerservice: Available services
+        invokerservice->capifcore: Services available\n for the invoker
+        capifcore->rAppManager: Invoker with invokerId\n and available services
+    end
+    rAppManager->capp: invokerId and\n available services
+    rAppManager->rAppCatalogue: Ok
+    alt#Orange #Orange Subscribe to publishing events
+        capp->eventservice: Subscribe to events\n with EventSubscription
+        eventservice->eventservice: Create subscriptionId
+        eventservice->capp: subscriptionId
+    end
+end
+alt Regtister provider rApp
+    rAppCatalogue->rAppManager: Register rApp, with\n rApp descriptor\n specifying which\n services to expose
+    alt#paleGreen #paleGreen Provider Enrolment
+        rAppManager->capifcore: Register provider with\n APIProviderEnrolmentDetails
+        capifcore->providermanager:Register provider
+        providermanager->providermanager: Create apiProvDomId\n and apiProvFuncIds\n for provided functions
+        providermanager->capifcore: Provider with\n apfId and aefIds
+        capifcore->rAppManager: Provider with\n apfId and aefIds
+    end
+    alt#LightBlue #LightBlue Publish Service
+        rAppManager->capifcore: Publish services\n with providerId\n andServiceAPIDescription
+        capifcore->publishservice: Publish services
+        publishservice->providermanager: Are AEFs registered\n for provider?
+        providermanager->publishservice: Ok
+        publishservice->publishservice: Create apiId
+        publishservice->helmmanager: Install chart
+        note right: Optional and not decided yet
+        helmmanager->publishservice: Ok
+        alt#Orange #Orange Subcribed Event Handling
+            publishservice->eventservice: Service published
+            eventservice->capp: CAPIFEventDetail
+        end
+        publishservice->capifcore: ServiceAPIDescription\n with apiId
+        capifcore->rAppManager: ServiceAPIDescription\n with apiId
+    end
+    rAppManager->papp: apiProvDomId,\n apiProvFuncIds,\n and apiId
+    rAppManager->rAppCatalogue: Ok
+end
+alt#Yellow #Yellow Discover Services
+    capp->capifcore: Discover services\n with apiInvokerId\n and filter parameters
+    capifcore->discoverservice: Get services available\n for the invoker
+    discoverservice->invokerservice: Get services available\n for the invoker
+    invokerservice->publishservice: Get available services
+    publishservice->invokerservice: Available services
+    invokerservice->discoverservice: Services available \nfor the invoker
+    discoverservice->capifcore: Services available for the\n invoker matching the\n filter parameters
+    capifcore->capp: Services available\n matching the\n filter parameters
+end
+
+alt Invoke Service
+    alt#Pink #Pink Security Service
+        capp->securityservice: Request token\n for service with\n AccessTokenReq
+        securityservice->invokerservice: Is invoker registered?
+        invokerservice->securityservice: Ok
+        securityservice->invokerservice: Is secret valid?
+        invokerservice->securityservice: Ok
+        securityservice->providermanager: Is function providing\n service registered?
+        providermanager->securityservice: Ok
+        securityservice->publishservice: Is service published?
+        publishservice->securityservice: Ok
+        securityservice->capp: AccessTokenRsp\n with token
+    end
+    capp->papp: Invoke service\n with token
+    alt#Silver #Silver Log invocation
+        papp->loggingservice: Log invocation\n with InvocationLog
+    end
+    papp->capp: Result of\n invocation
+end
+@enduml
