@@ -1,0 +1,115 @@
+version: '3'
+services:
+  a1-policy-management:
+    image: ${A1_POLICY_AGENT_IMAGE}
+    container_name: a1-policy-agent
+    ports:
+      - ${A1_POLICY_AGENT_PORT1}:${A1_POLICY_AGENT_PORT1}
+      - ${A1_POLICY_AGENT_PORT2}:${A1_POLICY_AGENT_PORT2}
+    volumes:
+      - ./a1policymanagementservice/application_configuration_SDNC.json:/opt/app/policy-agent/data/application_configuration.json
+    networks:
+      nonrtric-docker-net:
+
+  information-coordinator-service:
+    image: ${ICS_IMAGE}
+    container_name: information-coordinator-service
+    ports:
+      - ${ICS_PORT1}:${ICS_PORT1}
+      - ${ICS_PORT2}:${ICS_PORT2}
+    networks:
+      nonrtric-docker-net:
+
+  control-panel:
+    image: ${CONTROL_PANEL_IMAGE}
+    container_name: control-panel
+    ports:
+      - ${CONTROL_PANEL_PORT}:${CONTROL_PANEL_PORT}
+    volumes:
+      - ./control_panel/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      nonrtric-docker-net:
+
+  gateway:
+    image: ${NONRTRIC_GATEWAY_IMAGE}
+    container_name: nonrtric-gateway
+    ports:
+      - ${NONRTRIC_GATEWAY_PORT}:${NONRTRIC_GATEWAY_PORT}
+    volumes:
+      - ./nonrtric_gateway/application.yaml:/opt/app/nonrtric-gateway/config/application.yaml
+    networks:
+      nonrtric-docker-net:
+
+  # dmaap-adapter-sevice:
+  #   image: ${DMAAP_ADAPTER_IMAGE}
+  #   container_name: dmaapadapterservice
+  #   ports:
+  #     - ${temp_DMAAP_ADAPTER_PORT1}:${DMAAP_ADAPTER_PORT1}
+  #     - ${temp_DMAAP_ADAPTER_PORT2}:${DMAAP_ADAPTER_PORT2}
+  #   volumes:
+  #     - ./dmaap_adapter/application.yaml:/opt/app/dmaap-adapter-service/config/application.yaml
+  #     - ./dmaap_adapter/application_configuration.json:/opt/app/dmaap-adapter-service/data/application_configuration.json
+  #   networks:
+  #     nonrtric-docker-net:
+
+  # dmaap-mediator-producer:
+  #   image: ${DMAAP_MEDIATOR_IMAGE}
+  #   container_name: dmaapmediatorservice
+  #   ports:
+  #     - ${temp_DMAAP_MEDIATOR_PORT1}:${DMAAP_MEDIATOR_PORT1}
+  #     - ${temp_DMAAP_MEDIATOR_PORT2}:${DMAAP_MEDIATOR_PORT2}
+  #   environment:
+  #     - INFO_COORD_ADDR=https://information-coordinator-service:8434
+  #     - DMAAP_MR_ADDR=https://192.168.122.88:3905
+  #     - LOG_LEVEL=Debug
+  #     - INFO_PRODUCER_HOST=https://dmaapmediatorservice
+  #     - INFO_PRODUCER_PORT=8185
+  #   volumes:
+  #     - ./dmaap_mediator_producer/type_config.json:/configs/type_config.json
+  #   networks:
+  #     nonrtric-docker-net:
+
+  dmaap-adapter-service:
+    image: "${DMAAP_ADAPTOR_JAVA_BASE}:${DMAAP_ADAPTOR_JAVA_TAG}"
+    container_name: dmaap-adaptor-service
+    networks:
+      - nonrtric-docker-net
+    ports:
+      - 8084:8084
+      - 8435:8435
+    volumes:
+      - ./dmaap_adapter/application.yaml:/opt/app/dmaap-adaptor-service/config/application.yaml
+      - ./dmaap_adapter/application_configuration.json:/opt/app/dmaap-adaptor-service/data/application_configuration.json
+  
+  dmaap-mediator-producer:
+    image: "${DMAAP_MEDIATOR_GO_BASE}:${DMAAP_MEDIATOR_GO_TAG}"
+    container_name: dmaapmediatorservice
+    networks:
+      - nonrtric-docker-net
+    ports:
+      - 8085:8085
+      - 8436:8436
+    environment:
+      - INFO_PRODUCER_HOST=http://dmaapmediatorservice
+      - INFO_PRODUCER_PORT=8085
+      - INFO_COORD_ADDR=http://information-coordinator-service:8083
+      - DMAAP_MR_ADDR=https://192.168.122.88:3905
+      - PRODUCER_CERT_PATH=security/producer.crt
+      - PRODUCER_KEY_PATH=security/producer.key
+      - KAFKA_BOOTSTRAP_SERVERS=http://192.168.122.88:9092
+      - LOG_LEVEL=Debug
+    volumes:
+    - ./dmaap_mediator_producer/type_config.json:/configs/type_config.json
+
+  app-catalogue-service:
+    image: ${APP_CATALOGUE_IMAGE}
+    container_name: app-catalogue
+    ports:
+      - ${APP_CATALOGUE_PORT1}:${APP_CATALOGUE_PORT1}
+      - ${APP_CATALOGUE_PORT2}:${APP_CATALOGUE_PORT2}
+    networks:
+      nonrtric-docker-net:
+
+networks:
+  nonrtric-docker-net:
+    external: true
