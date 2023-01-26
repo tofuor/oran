@@ -8,10 +8,11 @@ cd ric-dep/bin
 
 ####### add ip address
 nano ric-dep/RECIPE_EXAMPLE/PLATFORM/example_recipe_latest_stable.yaml
-
+```
 extsvcplt:
 	ricip: ""
 	auxip: ""
+```
 #######
 
 /install -f ../RECIPE_EXAMPLE/PLATFORM/example_recipe_latest_stable.yaml
