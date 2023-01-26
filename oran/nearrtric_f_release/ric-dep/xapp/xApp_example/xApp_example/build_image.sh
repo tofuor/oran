@@ -1,0 +1,1 @@
+docker build --build-arg containerIP=$2 -t xapp:$1 -f Dockerfile-xapp .

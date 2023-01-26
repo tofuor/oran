@@ -37,8 +37,8 @@ common:
 # ricip should be the ingress controller listening IP for the platform cluster
 # auxip should be the ingress controller listening IP for the AUX cluster
 extsvcplt:
-  ricip: "192.168.122.65"
-  auxip: "192.168.122.65"
+  ricip: "192.168.239.143"
+  auxip: "192.168.239.143"
 
 
 # Specify the docker registry credential using the following
