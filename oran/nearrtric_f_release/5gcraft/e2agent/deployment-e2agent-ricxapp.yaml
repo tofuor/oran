@@ -1,0 +1,40 @@
+#####################################
+# 2020 ITRI
+# Author: Wanwan Shen
+# Topic: e2agent-deployment
+#####################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-e2-agent
+  namespace: ricxapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod-e2-agent
+  template:
+    metadata:
+      labels:
+        app: pod-e2-agent
+    spec:
+      imagePullSecrets:
+      - name: registry-secret-key
+      containers:
+      - name: container-e2-agent
+        image: e2agent:1.0.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 9090
+          protocol: TCP
+        volumeMounts:
+        - name: config-volume
+          mountPath: /opt/e2agent/config
+      volumes:
+      - name: config-volume
+        hostPath:
+          # directory location on host
+          path: /root/e2agent/config
+          # this field is optional
+          type: Directory
+

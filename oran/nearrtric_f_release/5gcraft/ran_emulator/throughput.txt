@@ -1,0 +1,1536 @@
+24mins, throughput per UE: 2480778 bytes/s
+total handovers: 0
+total drop rate: 41.100040%
+24mins, throughput per UE: 2482539 bytes/s
+total handovers: 0
+total drop rate: 41.279453%
+24mins, throughput per UE: 2483683 bytes/s
+total handovers: 0
+total drop rate: 41.331516%
+24mins, throughput per UE: 2484040 bytes/s
+total handovers: 0
+total drop rate: 41.365589%
+24mins, throughput per UE: 2484110 bytes/s
+total handovers: 0
+total drop rate: 41.383560%
+24mins, throughput per UE: 2484057 bytes/s
+total handovers: 0
+total drop rate: 41.397419%
+24mins, throughput per UE: 2484309 bytes/s
+total handovers: 0
+total drop rate: 41.406792%
+24mins, throughput per UE: 2485067 bytes/s
+total handovers: 0
+total drop rate: 41.412033%
+24mins, throughput per UE: 2484598 bytes/s
+total handovers: 0
+total drop rate: 41.416340%
+24mins, throughput per UE: 2485028 bytes/s
+total handovers: 0
+total drop rate: 41.419468%
+24mins, throughput per UE: 2484304 bytes/s
+total handovers: 0
+total drop rate: 41.422977%
+24mins, throughput per UE: 2484433 bytes/s
+total handovers: 0
+total drop rate: 41.425331%
+24mins, throughput per UE: 2484451 bytes/s
+total handovers: 0
+total drop rate: 41.427525%
+24mins, throughput per UE: 2485492 bytes/s
+total handovers: 0
+total drop rate: 41.430328%
+24mins, throughput per UE: 2485359 bytes/s
+total handovers: 0
+total drop rate: 41.431953%
+24mins, throughput per UE: 2486075 bytes/s
+total handovers: 0
+total drop rate: 41.433189%
+24mins, throughput per UE: 2484262 bytes/s
+total handovers: 0
+total drop rate: 41.435978%
+24mins, throughput per UE: 2484591 bytes/s
+total handovers: 0
+total drop rate: 41.436855%
+24mins, throughput per UE: 2484079 bytes/s
+total handovers: 0
+total drop rate: 41.437840%
+24mins, throughput per UE: 2485009 bytes/s
+total handovers: 0
+total drop rate: 41.437641%
+24mins, throughput per UE: 2483854 bytes/s
+total handovers: 0
+total drop rate: 41.438046%
+24mins, throughput per UE: 2484775 bytes/s
+total handovers: 0
+total drop rate: 41.439293%
+24mins, throughput per UE: 2484415 bytes/s
+total handovers: 0
+total drop rate: 41.439991%
+24mins, throughput per UE: 2484268 bytes/s
+total handovers: 0
+total drop rate: 41.441128%
+24mins, throughput per UE: 2485241 bytes/s
+total handovers: 0
+total drop rate: 41.441086%
+24mins, throughput per UE: 2485521 bytes/s
+total handovers: 0
+total drop rate: 41.440502%
+24mins, throughput per UE: 2484950 bytes/s
+total handovers: 0
+total drop rate: 41.441135%
+24mins, throughput per UE: 2484916 bytes/s
+total handovers: 0
+total drop rate: 41.441185%
+24mins, throughput per UE: 2484956 bytes/s
+total handovers: 0
+total drop rate: 41.441521%
+24mins, throughput per UE: 2484532 bytes/s
+total handovers: 0
+total drop rate: 41.441750%
+24mins, throughput per UE: 2485309 bytes/s
+total handovers: 0
+total drop rate: 41.442455%
+24mins, throughput per UE: 2485820 bytes/s
+total handovers: 0
+total drop rate: 41.443100%
+24mins, throughput per UE: 2485195 bytes/s
+total handovers: 0
+total drop rate: 41.443310%
+24mins, throughput per UE: 2485081 bytes/s
+total handovers: 0
+total drop rate: 41.443668%
+24mins, throughput per UE: 2484643 bytes/s
+total handovers: 0
+total drop rate: 41.443787%
+24mins, throughput per UE: 2485901 bytes/s
+total handovers: 0
+total drop rate: 41.444000%
+24mins, throughput per UE: 2485269 bytes/s
+total handovers: 0
+total drop rate: 41.444458%
+24mins, throughput per UE: 2484825 bytes/s
+total handovers: 0
+total drop rate: 41.444302%
+24mins, throughput per UE: 2484986 bytes/s
+total handovers: 0
+total drop rate: 41.444244%
+24mins, throughput per UE: 2485214 bytes/s
+total handovers: 0
+total drop rate: 41.444206%
+24mins, throughput per UE: 2483422 bytes/s
+total handovers: 0
+total drop rate: 41.444477%
+24mins, throughput per UE: 2485079 bytes/s
+total handovers: 0
+total drop rate: 41.444351%
+24mins, throughput per UE: 2484259 bytes/s
+total handovers: 0
+total drop rate: 41.444832%
+24mins, throughput per UE: 2484360 bytes/s
+total handovers: 0
+total drop rate: 41.444729%
+24mins, throughput per UE: 2483091 bytes/s
+total handovers: 0
+total drop rate: 41.445248%
+24mins, throughput per UE: 2483237 bytes/s
+total handovers: 0
+total drop rate: 41.445854%
+24mins, throughput per UE: 2484042 bytes/s
+total handovers: 0
+total drop rate: 41.445820%
+24mins, throughput per UE: 2484739 bytes/s
+total handovers: 0
+total drop rate: 41.446289%
+24mins, throughput per UE: 2445896 bytes/s
+total handovers: 0
+total drop rate: 41.793846%
+24mins, throughput per UE: 2448882 bytes/s
+total handovers: 0
+total drop rate: 42.045311%
+24mins, throughput per UE: 2449627 bytes/s
+total handovers: 0
+total drop rate: 42.128231%
+24mins, throughput per UE: 2449659 bytes/s
+total handovers: 0
+total drop rate: 42.169254%
+24mins, throughput per UE: 2450203 bytes/s
+total handovers: 0
+total drop rate: 42.188354%
+24mins, throughput per UE: 2448982 bytes/s
+total handovers: 0
+total drop rate: 42.204987%
+24mins, throughput per UE: 2448184 bytes/s
+total handovers: 0
+total drop rate: 42.216785%
+24mins, throughput per UE: 2450118 bytes/s
+total handovers: 0
+total drop rate: 42.223095%
+24mins, throughput per UE: 2449469 bytes/s
+total handovers: 0
+total drop rate: 42.228085%
+24mins, throughput per UE: 2448735 bytes/s
+total handovers: 0
+total drop rate: 42.235043%
+24mins, throughput per UE: 2449360 bytes/s
+total handovers: 0
+total drop rate: 42.239208%
+24mins, throughput per UE: 2448505 bytes/s
+total handovers: 0
+total drop rate: 42.243656%
+24mins, throughput per UE: 2449531 bytes/s
+total handovers: 0
+total drop rate: 42.246368%
+24mins, throughput per UE: 2450151 bytes/s
+total handovers: 0
+total drop rate: 42.248249%
+24mins, throughput per UE: 2449946 bytes/s
+total handovers: 0
+total drop rate: 42.249691%
+24mins, throughput per UE: 2449517 bytes/s
+total handovers: 0
+total drop rate: 42.250759%
+24mins, throughput per UE: 2449961 bytes/s
+total handovers: 0
+total drop rate: 42.252613%
+24mins, throughput per UE: 2449438 bytes/s
+total handovers: 0
+total drop rate: 42.254238%
+24mins, throughput per UE: 2449388 bytes/s
+total handovers: 0
+total drop rate: 42.256157%
+24mins, throughput per UE: 2450310 bytes/s
+total handovers: 0
+total drop rate: 42.257153%
+24mins, throughput per UE: 2450393 bytes/s
+total handovers: 0
+total drop rate: 42.257809%
+24mins, throughput per UE: 2451224 bytes/s
+total handovers: 0
+total drop rate: 42.259693%
+24mins, throughput per UE: 2449998 bytes/s
+total handovers: 0
+total drop rate: 42.260941%
+24mins, throughput per UE: 2449324 bytes/s
+total handovers: 0
+total drop rate: 42.261524%
+24mins, throughput per UE: 2448640 bytes/s
+total handovers: 0
+total drop rate: 42.262383%
+24mins, throughput per UE: 2449720 bytes/s
+total handovers: 0
+total drop rate: 42.263069%
+24mins, throughput per UE: 2450213 bytes/s
+total handovers: 0
+total drop rate: 42.262817%
+24mins, throughput per UE: 2449280 bytes/s
+total handovers: 0
+total drop rate: 42.264133%
+24mins, throughput per UE: 2449617 bytes/s
+total handovers: 0
+total drop rate: 42.264652%
+24mins, throughput per UE: 2449323 bytes/s
+total handovers: 0
+total drop rate: 42.265827%
+24mins, throughput per UE: 2448430 bytes/s
+total handovers: 0
+total drop rate: 42.266872%
+24mins, throughput per UE: 2449099 bytes/s
+total handovers: 0
+total drop rate: 42.267437%
+24mins, throughput per UE: 2450625 bytes/s
+total handovers: 0
+total drop rate: 42.267029%
+24mins, throughput per UE: 2450456 bytes/s
+total handovers: 0
+total drop rate: 42.267193%
+24mins, throughput per UE: 2449957 bytes/s
+total handovers: 0
+total drop rate: 42.267170%
+24mins, throughput per UE: 2449726 bytes/s
+total handovers: 0
+total drop rate: 42.267494%
+24mins, throughput per UE: 2449440 bytes/s
+total handovers: 0
+total drop rate: 42.267757%
+24mins, throughput per UE: 2449537 bytes/s
+total handovers: 0
+total drop rate: 42.267620%
+24mins, throughput per UE: 2449259 bytes/s
+total handovers: 0
+total drop rate: 42.268078%
+24mins, throughput per UE: 2449484 bytes/s
+total handovers: 0
+total drop rate: 42.268433%
+24mins, throughput per UE: 2448255 bytes/s
+total handovers: 0
+total drop rate: 42.269253%
+24mins, throughput per UE: 2449486 bytes/s
+total handovers: 0
+total drop rate: 42.269360%
+24mins, throughput per UE: 2450175 bytes/s
+total handovers: 0
+total drop rate: 42.269402%
+24mins, throughput per UE: 2449333 bytes/s
+total handovers: 0
+total drop rate: 42.269810%
+24mins, throughput per UE: 2449508 bytes/s
+total handovers: 0
+total drop rate: 42.270737%
+24mins, throughput per UE: 2449790 bytes/s
+total handovers: 0
+total drop rate: 42.270821%
+24mins, throughput per UE: 2449551 bytes/s
+total handovers: 0
+total drop rate: 42.270702%
+24mins, throughput per UE: 2449115 bytes/s
+total handovers: 0
+total drop rate: 42.270977%
+24mins, throughput per UE: 2448640 bytes/s
+total handovers: 0
+total drop rate: 42.271198%
+24mins, throughput per UE: 2450058 bytes/s
+total handovers: 0
+total drop rate: 42.271065%
+24mins, throughput per UE: 2449910 bytes/s
+total handovers: 0
+total drop rate: 42.271309%
+24mins, throughput per UE: 2448395 bytes/s
+total handovers: 0
+total drop rate: 42.271439%
+24mins, throughput per UE: 2449705 bytes/s
+total handovers: 0
+total drop rate: 42.271461%
+24mins, throughput per UE: 2449744 bytes/s
+total handovers: 0
+total drop rate: 42.271767%
+24mins, throughput per UE: 2449898 bytes/s
+total handovers: 0
+total drop rate: 42.271824%
+24mins, throughput per UE: 2449285 bytes/s
+total handovers: 0
+total drop rate: 42.271988%
+24mins, throughput per UE: 2450064 bytes/s
+total handovers: 0
+total drop rate: 42.271881%
+24mins, throughput per UE: 2449243 bytes/s
+total handovers: 0
+total drop rate: 42.272495%
+24mins, throughput per UE: 2450734 bytes/s
+total handovers: 0
+total drop rate: 42.271999%
+24mins, throughput per UE: 2448908 bytes/s
+total handovers: 0
+total drop rate: 42.272644%
+24mins, throughput per UE: 2449148 bytes/s
+total handovers: 0
+total drop rate: 42.272705%
+24mins, throughput per UE: 2449257 bytes/s
+total handovers: 0
+total drop rate: 42.272919%
+24mins, throughput per UE: 2449519 bytes/s
+total handovers: 0
+total drop rate: 42.273243%
+24mins, throughput per UE: 2449388 bytes/s
+total handovers: 0
+total drop rate: 42.273521%
+24mins, throughput per UE: 2449614 bytes/s
+total handovers: 0
+total drop rate: 42.273651%
+24mins, throughput per UE: 2449565 bytes/s
+total handovers: 0
+total drop rate: 42.273781%
+24mins, throughput per UE: 2450188 bytes/s
+total handovers: 0
+total drop rate: 42.273594%
+24mins, throughput per UE: 2449649 bytes/s
+total handovers: 0
+total drop rate: 42.273766%
+24mins, throughput per UE: 2449827 bytes/s
+total handovers: 0
+total drop rate: 42.273697%
+24mins, throughput per UE: 2449573 bytes/s
+total handovers: 0
+total drop rate: 42.273884%
+24mins, throughput per UE: 2449955 bytes/s
+total handovers: 0
+total drop rate: 42.274242%
+24mins, throughput per UE: 2450061 bytes/s
+total handovers: 0
+total drop rate: 42.274433%
+24mins, throughput per UE: 2449637 bytes/s
+total handovers: 0
+total drop rate: 42.274391%
+24mins, throughput per UE: 2449957 bytes/s
+total handovers: 0
+total drop rate: 42.274315%
+24mins, throughput per UE: 2448696 bytes/s
+total handovers: 0
+total drop rate: 42.274323%
+24mins, throughput per UE: 2450094 bytes/s
+total handovers: 0
+total drop rate: 42.274136%
+24mins, throughput per UE: 2449418 bytes/s
+total handovers: 0
+total drop rate: 42.274338%
+24mins, throughput per UE: 2449517 bytes/s
+total handovers: 0
+total drop rate: 42.274548%
+24mins, throughput per UE: 2449007 bytes/s
+total handovers: 0
+total drop rate: 42.274769%
+24mins, throughput per UE: 2448895 bytes/s
+total handovers: 0
+total drop rate: 42.274658%
+24mins, throughput per UE: 2450100 bytes/s
+total handovers: 0
+total drop rate: 42.274475%
+24mins, throughput per UE: 2448723 bytes/s
+total handovers: 0
+total drop rate: 42.275013%
+24mins, throughput per UE: 2449722 bytes/s
+total handovers: 0
+total drop rate: 42.275177%
+24mins, throughput per UE: 2449372 bytes/s
+total handovers: 0
+total drop rate: 42.275150%
+24mins, throughput per UE: 2449325 bytes/s
+total handovers: 0
+total drop rate: 42.275242%
+24mins, throughput per UE: 2449918 bytes/s
+total handovers: 0
+total drop rate: 42.275246%
+24mins, throughput per UE: 2449622 bytes/s
+total handovers: 0
+total drop rate: 42.275436%
+24mins, throughput per UE: 2450325 bytes/s
+total handovers: 0
+total drop rate: 42.275547%
+24mins, throughput per UE: 2448526 bytes/s
+total handovers: 0
+total drop rate: 42.275631%
+24mins, throughput per UE: 2449969 bytes/s
+total handovers: 0
+total drop rate: 42.275558%
+24mins, throughput per UE: 2450304 bytes/s
+total handovers: 0
+total drop rate: 42.275475%
+24mins, throughput per UE: 2449575 bytes/s
+total handovers: 0
+total drop rate: 42.275654%
+24mins, throughput per UE: 2449528 bytes/s
+total handovers: 0
+total drop rate: 42.275688%
+24mins, throughput per UE: 2449554 bytes/s
+total handovers: 0
+total drop rate: 42.275761%
+24mins, throughput per UE: 2449620 bytes/s
+total handovers: 0
+total drop rate: 42.275681%
+24mins, throughput per UE: 2449327 bytes/s
+total handovers: 0
+total drop rate: 42.275757%
+24mins, throughput per UE: 2449047 bytes/s
+total handovers: 0
+total drop rate: 42.275707%
+24mins, throughput per UE: 2449034 bytes/s
+total handovers: 0
+total drop rate: 42.275742%
+24mins, throughput per UE: 2449715 bytes/s
+total handovers: 0
+total drop rate: 42.275574%
+24mins, throughput per UE: 2449181 bytes/s
+total handovers: 0
+total drop rate: 42.275558%
+24mins, throughput per UE: 2450078 bytes/s
+total handovers: 0
+total drop rate: 42.275841%
+24mins, throughput per UE: 2449384 bytes/s
+total handovers: 0
+total drop rate: 42.275669%
+24mins, throughput per UE: 2449752 bytes/s
+total handovers: 0
+total drop rate: 42.275509%
+24mins, throughput per UE: 2449168 bytes/s
+total handovers: 0
+total drop rate: 42.275612%
+24mins, throughput per UE: 2449322 bytes/s
+total handovers: 0
+total drop rate: 42.275654%
+24mins, throughput per UE: 2449267 bytes/s
+total handovers: 0
+total drop rate: 42.275650%
+24mins, throughput per UE: 2450327 bytes/s
+total handovers: 0
+total drop rate: 42.275703%
+24mins, throughput per UE: 2449218 bytes/s
+total handovers: 0
+total drop rate: 42.275818%
+24mins, throughput per UE: 2450196 bytes/s
+total handovers: 0
+total drop rate: 42.275879%
+24mins, throughput per UE: 2450321 bytes/s
+total handovers: 0
+total drop rate: 42.275993%
+24mins, throughput per UE: 2450368 bytes/s
+total handovers: 0
+total drop rate: 42.276024%
+24mins, throughput per UE: 2449361 bytes/s
+total handovers: 0
+total drop rate: 42.276054%
+24mins, throughput per UE: 2449400 bytes/s
+total handovers: 0
+total drop rate: 42.276146%
+24mins, throughput per UE: 2450175 bytes/s
+total handovers: 0
+total drop rate: 42.276043%
+24mins, throughput per UE: 2450322 bytes/s
+total handovers: 0
+total drop rate: 42.276077%
+24mins, throughput per UE: 2449488 bytes/s
+total handovers: 0
+total drop rate: 42.276134%
+24mins, throughput per UE: 2450502 bytes/s
+total handovers: 0
+total drop rate: 42.275951%
+24mins, throughput per UE: 2448020 bytes/s
+total handovers: 0
+total drop rate: 42.276306%
+24mins, throughput per UE: 2449449 bytes/s
+total handovers: 0
+total drop rate: 42.276306%
+24mins, throughput per UE: 2450696 bytes/s
+total handovers: 0
+total drop rate: 42.276470%
+24mins, throughput per UE: 2450083 bytes/s
+total handovers: 0
+total drop rate: 42.276592%
+24mins, throughput per UE: 2449194 bytes/s
+total handovers: 0
+total drop rate: 42.276649%
+24mins, throughput per UE: 2449801 bytes/s
+total handovers: 0
+total drop rate: 42.276756%
+24mins, throughput per UE: 2450421 bytes/s
+total handovers: 0
+total drop rate: 42.276608%
+24mins, throughput per UE: 2449100 bytes/s
+total handovers: 0
+total drop rate: 42.276619%
+24mins, throughput per UE: 2448995 bytes/s
+total handovers: 0
+total drop rate: 42.276745%
+24mins, throughput per UE: 2449594 bytes/s
+total handovers: 0
+total drop rate: 42.276810%
+24mins, throughput per UE: 2448990 bytes/s
+total handovers: 0
+total drop rate: 42.276798%
+24mins, throughput per UE: 2448701 bytes/s
+total handovers: 0
+total drop rate: 42.276924%
+24mins, throughput per UE: 2449125 bytes/s
+total handovers: 0
+total drop rate: 42.277096%
+24mins, throughput per UE: 2449028 bytes/s
+total handovers: 0
+total drop rate: 42.277142%
+24mins, throughput per UE: 2450450 bytes/s
+total handovers: 0
+total drop rate: 42.277111%
+24mins, throughput per UE: 2449130 bytes/s
+total handovers: 0
+total drop rate: 42.277122%
+24mins, throughput per UE: 2448629 bytes/s
+total handovers: 0
+total drop rate: 42.277130%
+24mins, throughput per UE: 2449769 bytes/s
+total handovers: 0
+total drop rate: 42.277168%
+24mins, throughput per UE: 2448660 bytes/s
+total handovers: 0
+total drop rate: 42.277130%
+24mins, throughput per UE: 2449423 bytes/s
+total handovers: 0
+total drop rate: 42.277222%
+24mins, throughput per UE: 2449907 bytes/s
+total handovers: 0
+total drop rate: 42.277096%
+24mins, throughput per UE: 2449363 bytes/s
+total handovers: 0
+total drop rate: 42.277187%
+24mins, throughput per UE: 2449451 bytes/s
+total handovers: 0
+total drop rate: 42.277004%
+24mins, throughput per UE: 2449260 bytes/s
+total handovers: 0
+total drop rate: 42.277020%
+24mins, throughput per UE: 2450546 bytes/s
+total handovers: 0
+total drop rate: 42.276840%
+24mins, throughput per UE: 2449989 bytes/s
+total handovers: 0
+total drop rate: 42.276772%
+24mins, throughput per UE: 2448644 bytes/s
+total handovers: 0
+total drop rate: 42.276863%
+24mins, throughput per UE: 2450000 bytes/s
+total handovers: 0
+total drop rate: 42.276810%
+24mins, throughput per UE: 2450254 bytes/s
+total handovers: 0
+total drop rate: 42.276886%
+24mins, throughput per UE: 2449463 bytes/s
+total handovers: 0
+total drop rate: 42.276943%
+24mins, throughput per UE: 2449587 bytes/s
+total handovers: 0
+total drop rate: 42.276875%
+24mins, throughput per UE: 2449864 bytes/s
+total handovers: 0
+total drop rate: 42.276897%
+24mins, throughput per UE: 2448666 bytes/s
+total handovers: 0
+total drop rate: 42.277020%
+24mins, throughput per UE: 2449249 bytes/s
+total handovers: 0
+total drop rate: 42.277077%
+24mins, throughput per UE: 2449075 bytes/s
+total handovers: 0
+total drop rate: 42.277107%
+24mins, throughput per UE: 2447784 bytes/s
+total handovers: 0
+total drop rate: 42.277287%
+24mins, throughput per UE: 2449722 bytes/s
+total handovers: 0
+total drop rate: 42.277267%
+24mins, throughput per UE: 2449981 bytes/s
+total handovers: 0
+total drop rate: 42.277321%
+24mins, throughput per UE: 2450424 bytes/s
+total handovers: 0
+total drop rate: 42.277294%
+24mins, throughput per UE: 2450597 bytes/s
+total handovers: 0
+total drop rate: 42.277222%
+24mins, throughput per UE: 2448938 bytes/s
+total handovers: 0
+total drop rate: 42.277355%
+24mins, throughput per UE: 2449927 bytes/s
+total handovers: 0
+total drop rate: 42.277519%
+24mins, throughput per UE: 2449931 bytes/s
+total handovers: 0
+total drop rate: 42.277580%
+24mins, throughput per UE: 2449267 bytes/s
+total handovers: 0
+total drop rate: 42.277573%
+24mins, throughput per UE: 2448908 bytes/s
+total handovers: 0
+total drop rate: 42.277641%
+24mins, throughput per UE: 2449906 bytes/s
+total handovers: 0
+total drop rate: 42.277554%
+24mins, throughput per UE: 2450059 bytes/s
+total handovers: 0
+total drop rate: 42.277615%
+24mins, throughput per UE: 2450489 bytes/s
+total handovers: 0
+total drop rate: 42.277512%
+24mins, throughput per UE: 2448854 bytes/s
+total handovers: 0
+total drop rate: 42.277538%
+24mins, throughput per UE: 2450189 bytes/s
+total handovers: 0
+total drop rate: 42.277687%
+24mins, throughput per UE: 2448674 bytes/s
+total handovers: 0
+total drop rate: 42.277691%
+24mins, throughput per UE: 2449311 bytes/s
+total handovers: 0
+total drop rate: 42.277779%
+24mins, throughput per UE: 2448824 bytes/s
+total handovers: 0
+total drop rate: 42.277885%
+24mins, throughput per UE: 2450601 bytes/s
+total handovers: 0
+total drop rate: 42.277824%
+24mins, throughput per UE: 2449955 bytes/s
+total handovers: 0
+total drop rate: 42.277866%
+24mins, throughput per UE: 2449236 bytes/s
+total handovers: 0
+total drop rate: 42.277901%
+24mins, throughput per UE: 2448579 bytes/s
+total handovers: 0
+total drop rate: 42.278049%
+24mins, throughput per UE: 2449845 bytes/s
+total handovers: 0
+total drop rate: 42.278107%
+24mins, throughput per UE: 2449953 bytes/s
+total handovers: 0
+total drop rate: 42.278053%
+24mins, throughput per UE: 2449742 bytes/s
+total handovers: 0
+total drop rate: 42.278053%
+24mins, throughput per UE: 2449546 bytes/s
+total handovers: 0
+total drop rate: 42.278130%
+24mins, throughput per UE: 2449488 bytes/s
+total handovers: 0
+total drop rate: 42.278027%
+24mins, throughput per UE: 2449208 bytes/s
+total handovers: 0
+total drop rate: 42.278103%
+24mins, throughput per UE: 2447771 bytes/s
+total handovers: 0
+total drop rate: 42.278114%
+24mins, throughput per UE: 2448644 bytes/s
+total handovers: 1
+total drop rate: 42.278160%
+24mins, throughput per UE: 2448231 bytes/s
+total handovers: 1
+total drop rate: 42.278187%
+24mins, throughput per UE: 3065749 bytes/s
+total handovers: 1
+total drop rate: 27.652348%
+24mins, throughput per UE: 3069995 bytes/s
+total handovers: 1
+total drop rate: 27.642807%
+24mins, throughput per UE: 3068886 bytes/s
+total handovers: 1
+total drop rate: 27.633062%
+24mins, throughput per UE: 3071062 bytes/s
+total handovers: 1
+total drop rate: 27.633635%
+24mins, throughput per UE: 3070394 bytes/s
+total handovers: 1
+total drop rate: 27.631525%
+24mins, throughput per UE: 3071674 bytes/s
+total handovers: 1
+total drop rate: 27.631289%
+24mins, throughput per UE: 3070536 bytes/s
+total handovers: 1
+total drop rate: 27.634436%
+24mins, throughput per UE: 3072644 bytes/s
+total handovers: 1
+total drop rate: 27.635351%
+24mins, throughput per UE: 3070782 bytes/s
+total handovers: 1
+total drop rate: 27.636868%
+24mins, throughput per UE: 3071174 bytes/s
+total handovers: 1
+total drop rate: 27.637592%
+24mins, throughput per UE: 3067378 bytes/s
+total handovers: 1
+total drop rate: 27.638113%
+24mins, throughput per UE: 3070724 bytes/s
+total handovers: 1
+total drop rate: 27.635786%
+24mins, throughput per UE: 3073537 bytes/s
+total handovers: 1
+total drop rate: 27.637621%
+24mins, throughput per UE: 2978365 bytes/s
+total handovers: 0
+total drop rate: 29.738817%
+24mins, throughput per UE: 2979902 bytes/s
+total handovers: 0
+total drop rate: 29.722382%
+24mins, throughput per UE: 2982563 bytes/s
+total handovers: 0
+total drop rate: 29.725742%
+24mins, throughput per UE: 2982155 bytes/s
+total handovers: 0
+total drop rate: 29.731333%
+24mins, throughput per UE: 2981965 bytes/s
+total handovers: 0
+total drop rate: 29.747482%
+24mins, throughput per UE: 2982185 bytes/s
+total handovers: 0
+total drop rate: 29.721325%
+24mins, throughput per UE: 2983826 bytes/s
+total handovers: 0
+total drop rate: 29.723511%
+24mins, throughput per UE: 2983154 bytes/s
+total handovers: 0
+total drop rate: 29.688236%
+24mins, throughput per UE: 2982869 bytes/s
+total handovers: 0
+total drop rate: 29.708364%
+24mins, throughput per UE: 2984798 bytes/s
+total handovers: 0
+total drop rate: 29.684267%
+24mins, throughput per UE: 2984769 bytes/s
+total handovers: 0
+total drop rate: 29.716259%
+24mins, throughput per UE: 2981762 bytes/s
+total handovers: 0
+total drop rate: 29.708138%
+24mins, throughput per UE: 2983097 bytes/s
+total handovers: 0
+total drop rate: 29.662636%
+24mins, throughput per UE: 2982490 bytes/s
+total handovers: 0
+total drop rate: 29.718691%
+24mins, throughput per UE: 2906713 bytes/s
+total handovers: 0
+total drop rate: 31.376368%
+24mins, throughput per UE: 2913277 bytes/s
+total handovers: 0
+total drop rate: 31.379509%
+24mins, throughput per UE: 2910510 bytes/s
+total handovers: 0
+total drop rate: 31.417763%
+24mins, throughput per UE: 2909651 bytes/s
+total handovers: 0
+total drop rate: 31.394714%
+24mins, throughput per UE: 2911026 bytes/s
+total handovers: 0
+total drop rate: 31.419540%
+24mins, throughput per UE: 2911002 bytes/s
+total handovers: 0
+total drop rate: 31.399956%
+24mins, throughput per UE: 2912275 bytes/s
+total handovers: 0
+total drop rate: 31.378920%
+24mins, throughput per UE: 2912134 bytes/s
+total handovers: 0
+total drop rate: 31.348927%
+24mins, throughput per UE: 2908822 bytes/s
+total handovers: 0
+total drop rate: 31.398750%
+24mins, throughput per UE: 2910723 bytes/s
+total handovers: 0
+total drop rate: 31.356943%
+24mins, throughput per UE: 2911921 bytes/s
+total handovers: 0
+total drop rate: 31.343445%
+24mins, throughput per UE: 2910664 bytes/s
+total handovers: 0
+total drop rate: 31.407129%
+24mins, throughput per UE: 2910391 bytes/s
+total handovers: 0
+total drop rate: 31.383785%
+24mins, throughput per UE: 2909464 bytes/s
+total handovers: 0
+total drop rate: 31.413820%
+24mins, throughput per UE: 2913254 bytes/s
+total handovers: 0
+total drop rate: 31.410784%
+24mins, throughput per UE: 2908245 bytes/s
+total handovers: 0
+total drop rate: 31.392912%
+24mins, throughput per UE: 2909314 bytes/s
+total handovers: 0
+total drop rate: 31.389633%
+24mins, throughput per UE: 2911575 bytes/s
+total handovers: 0
+total drop rate: 31.369263%
+24mins, throughput per UE: 2910903 bytes/s
+total handovers: 0
+total drop rate: 31.365767%
+24mins, throughput per UE: 2909086 bytes/s
+total handovers: 0
+total drop rate: 31.416523%
+24mins, throughput per UE: 2911388 bytes/s
+total handovers: 0
+total drop rate: 31.386406%
+24mins, throughput per UE: 2913714 bytes/s
+total handovers: 0
+total drop rate: 31.355793%
+24mins, throughput per UE: 2909172 bytes/s
+total handovers: 0
+total drop rate: 31.431988%
+24mins, throughput per UE: 2913779 bytes/s
+total handovers: 0
+total drop rate: 31.386509%
+24mins, throughput per UE: 2909490 bytes/s
+total handovers: 0
+total drop rate: 31.426924%
+24mins, throughput per UE: 2912277 bytes/s
+total handovers: 0
+total drop rate: 31.402515%
+24mins, throughput per UE: 2911061 bytes/s
+total handovers: 0
+total drop rate: 31.386650%
+24mins, throughput per UE: 2912267 bytes/s
+total handovers: 0
+total drop rate: 31.405151%
+24mins, throughput per UE: 2913902 bytes/s
+total handovers: 0
+total drop rate: 31.355095%
+24mins, throughput per UE: 2910823 bytes/s
+total handovers: 0
+total drop rate: 31.393078%
+24mins, throughput per UE: 2909148 bytes/s
+total handovers: 0
+total drop rate: 31.424236%
+24mins, throughput per UE: 2913051 bytes/s
+total handovers: 0
+total drop rate: 31.376997%
+24mins, throughput per UE: 2915245 bytes/s
+total handovers: 0
+total drop rate: 31.341999%
+24mins, throughput per UE: 2914265 bytes/s
+total handovers: 0
+total drop rate: 31.360409%
+24mins, throughput per UE: 2909309 bytes/s
+total handovers: 0
+total drop rate: 31.405827%
+24mins, throughput per UE: 2911524 bytes/s
+total handovers: 0
+total drop rate: 31.422991%
+24mins, throughput per UE: 2910039 bytes/s
+total handovers: 0
+total drop rate: 31.439669%
+24mins, throughput per UE: 2914951 bytes/s
+total handovers: 0
+total drop rate: 31.336096%
+24mins, throughput per UE: 2911971 bytes/s
+total handovers: 0
+total drop rate: 31.389496%
+24mins, throughput per UE: 2911390 bytes/s
+total handovers: 0
+total drop rate: 31.394703%
+24mins, throughput per UE: 2909521 bytes/s
+total handovers: 0
+total drop rate: 31.422943%
+24mins, throughput per UE: 2912542 bytes/s
+total handovers: 0
+total drop rate: 31.394020%
+24mins, throughput per UE: 2907519 bytes/s
+total handovers: 0
+total drop rate: 31.461891%
+24mins, throughput per UE: 2910981 bytes/s
+total handovers: 0
+total drop rate: 31.367266%
+24mins, throughput per UE: 2911846 bytes/s
+total handovers: 0
+total drop rate: 31.403938%
+24mins, throughput per UE: 2912652 bytes/s
+total handovers: 0
+total drop rate: 31.401638%
+24mins, throughput per UE: 2913652 bytes/s
+total handovers: 0
+total drop rate: 31.406281%
+24mins, throughput per UE: 2911810 bytes/s
+total handovers: 0
+total drop rate: 31.366810%
+24mins, throughput per UE: 2907560 bytes/s
+total handovers: 0
+total drop rate: 31.416672%
+24mins, throughput per UE: 2913022 bytes/s
+total handovers: 0
+total drop rate: 31.380037%
+24mins, throughput per UE: 2909861 bytes/s
+total handovers: 0
+total drop rate: 31.392946%
+24mins, throughput per UE: 2910246 bytes/s
+total handovers: 0
+total drop rate: 31.381390%
+24mins, throughput per UE: 2909081 bytes/s
+total handovers: 0
+total drop rate: 31.369272%
+24mins, throughput per UE: 2908401 bytes/s
+total handovers: 0
+total drop rate: 31.394106%
+24mins, throughput per UE: 2911628 bytes/s
+total handovers: 0
+total drop rate: 31.356371%
+24mins, throughput per UE: 2913507 bytes/s
+total handovers: 0
+total drop rate: 31.382078%
+24mins, throughput per UE: 2912109 bytes/s
+total handovers: 0
+total drop rate: 31.380600%
+24mins, throughput per UE: 2911589 bytes/s
+total handovers: 0
+total drop rate: 31.343412%
+24mins, throughput per UE: 2913194 bytes/s
+total handovers: 0
+total drop rate: 31.345501%
+24mins, throughput per UE: 2909216 bytes/s
+total handovers: 0
+total drop rate: 31.425138%
+24mins, throughput per UE: 2911687 bytes/s
+total handovers: 0
+total drop rate: 31.370909%
+24mins, throughput per UE: 2911387 bytes/s
+total handovers: 0
+total drop rate: 31.387985%
+24mins, throughput per UE: 2912476 bytes/s
+total handovers: 0
+total drop rate: 31.409105%
+24mins, throughput per UE: 2910310 bytes/s
+total handovers: 0
+total drop rate: 31.360785%
+24mins, throughput per UE: 2909382 bytes/s
+total handovers: 0
+total drop rate: 31.442928%
+24mins, throughput per UE: 2909703 bytes/s
+total handovers: 0
+total drop rate: 31.386583%
+24mins, throughput per UE: 2911688 bytes/s
+total handovers: 0
+total drop rate: 31.401789%
+24mins, throughput per UE: 2912972 bytes/s
+total handovers: 0
+total drop rate: 31.375444%
+24mins, throughput per UE: 2909554 bytes/s
+total handovers: 0
+total drop rate: 31.387817%
+24mins, throughput per UE: 2911848 bytes/s
+total handovers: 0
+total drop rate: 31.415684%
+24mins, throughput per UE: 2911707 bytes/s
+total handovers: 0
+total drop rate: 31.409698%
+24mins, throughput per UE: 2908360 bytes/s
+total handovers: 0
+total drop rate: 31.403923%
+24mins, throughput per UE: 2911908 bytes/s
+total handovers: 0
+total drop rate: 31.389275%
+24mins, throughput per UE: 2911283 bytes/s
+total handovers: 0
+total drop rate: 31.398872%
+24mins, throughput per UE: 2914071 bytes/s
+total handovers: 0
+total drop rate: 31.376612%
+24mins, throughput per UE: 2910887 bytes/s
+total handovers: 0
+total drop rate: 31.373941%
+24mins, throughput per UE: 2912449 bytes/s
+total handovers: 0
+total drop rate: 31.377293%
+24mins, throughput per UE: 2912502 bytes/s
+total handovers: 0
+total drop rate: 31.344589%
+24mins, throughput per UE: 2913339 bytes/s
+total handovers: 0
+total drop rate: 31.410107%
+24mins, throughput per UE: 2915336 bytes/s
+total handovers: 0
+total drop rate: 31.381542%
+24mins, throughput per UE: 2911372 bytes/s
+total handovers: 0
+total drop rate: 31.429478%
+24mins, throughput per UE: 2912341 bytes/s
+total handovers: 0
+total drop rate: 31.377474%
+24mins, throughput per UE: 2911772 bytes/s
+total handovers: 0
+total drop rate: 31.359186%
+24mins, throughput per UE: 2909051 bytes/s
+total handovers: 0
+total drop rate: 31.426407%
+24mins, throughput per UE: 2911775 bytes/s
+total handovers: 0
+total drop rate: 31.434608%
+24mins, throughput per UE: 2912695 bytes/s
+total handovers: 0
+total drop rate: 31.375164%
+24mins, throughput per UE: 2911539 bytes/s
+total handovers: 0
+total drop rate: 31.379519%
+24mins, throughput per UE: 2912622 bytes/s
+total handovers: 0
+total drop rate: 31.369703%
+24mins, throughput per UE: 2912423 bytes/s
+total handovers: 0
+total drop rate: 31.419748%
+24mins, throughput per UE: 2911571 bytes/s
+total handovers: 0
+total drop rate: 31.400579%
+24mins, throughput per UE: 2912044 bytes/s
+total handovers: 0
+total drop rate: 31.408983%
+24mins, throughput per UE: 2909261 bytes/s
+total handovers: 0
+total drop rate: 31.399113%
+24mins, throughput per UE: 2913815 bytes/s
+total handovers: 0
+total drop rate: 31.369390%
+24mins, throughput per UE: 2911862 bytes/s
+total handovers: 0
+total drop rate: 31.400984%
+24mins, throughput per UE: 2911229 bytes/s
+total handovers: 0
+total drop rate: 31.391079%
+24mins, throughput per UE: 2909768 bytes/s
+total handovers: 0
+total drop rate: 31.428627%
+24mins, throughput per UE: 2913032 bytes/s
+total handovers: 0
+total drop rate: 31.375221%
+24mins, throughput per UE: 2908936 bytes/s
+total handovers: 0
+total drop rate: 31.431276%
+24mins, throughput per UE: 2908708 bytes/s
+total handovers: 0
+total drop rate: 31.384912%
+24mins, throughput per UE: 2908729 bytes/s
+total handovers: 0
+total drop rate: 31.458252%
+24mins, throughput per UE: 2907441 bytes/s
+total handovers: 0
+total drop rate: 31.382900%
+24mins, throughput per UE: 2911692 bytes/s
+total handovers: 0
+total drop rate: 31.426102%
+24mins, throughput per UE: 2909527 bytes/s
+total handovers: 0
+total drop rate: 31.391647%
+24mins, throughput per UE: 2909319 bytes/s
+total handovers: 0
+total drop rate: 31.404118%
+24mins, throughput per UE: 2785790 bytes/s
+total handovers: 0
+total drop rate: 34.126091%
+24mins, throughput per UE: 2486789 bytes/s
+total handovers: 0
+total drop rate: 35.722458%
+24mins, throughput per UE: 2780395 bytes/s
+total handovers: 1
+total drop rate: 34.331547%
+24mins, throughput per UE: 2788318 bytes/s
+total handovers: 0
+total drop rate: 34.306499%
+24mins, throughput per UE: 2788468 bytes/s
+total handovers: 0
+total drop rate: 34.346054%
+24mins, throughput per UE: 2787375 bytes/s
+total handovers: 0
+total drop rate: 34.320267%
+24mins, throughput per UE: 2788868 bytes/s
+total handovers: 0
+total drop rate: 34.289341%
+24mins, throughput per UE: 3055062 bytes/s
+total handovers: 0
+total drop rate: 27.937185%
+24mins, throughput per UE: 2678012 bytes/s
+total handovers: 0
+total drop rate: 36.813183%
+24mins, throughput per UE: 2683980 bytes/s
+total handovers: 0
+total drop rate: 36.782055%
+24mins, throughput per UE: 2684250 bytes/s
+total handovers: 0
+total drop rate: 36.730034%
+24mins, throughput per UE: 2682434 bytes/s
+total handovers: 0
+total drop rate: 36.772884%
+24mins, throughput per UE: 2687499 bytes/s
+total handovers: 0
+total drop rate: 36.782845%
+24mins, throughput per UE: 2684987 bytes/s
+total handovers: 0
+total drop rate: 36.763908%
+24mins, throughput per UE: 2681383 bytes/s
+total handovers: 0
+total drop rate: 36.805164%
+24mins, throughput per UE: 2683910 bytes/s
+total handovers: 0
+total drop rate: 36.784527%
+24mins, throughput per UE: 2684432 bytes/s
+total handovers: 0
+total drop rate: 36.799614%
+24mins, throughput per UE: 2682030 bytes/s
+total handovers: 0
+total drop rate: 36.746552%
+24mins, throughput per UE: 2684277 bytes/s
+total handovers: 0
+total drop rate: 36.716839%
+24mins, throughput per UE: 2684304 bytes/s
+total handovers: 0
+total drop rate: 36.799309%
+24mins, throughput per UE: 2685584 bytes/s
+total handovers: 0
+total drop rate: 36.732170%
+24mins, throughput per UE: 2683282 bytes/s
+total handovers: 0
+total drop rate: 36.772202%
+24mins, throughput per UE: 2686229 bytes/s
+total handovers: 0
+total drop rate: 36.716358%
+24mins, throughput per UE: 2684187 bytes/s
+total handovers: 0
+total drop rate: 36.752453%
+24mins, throughput per UE: 2684550 bytes/s
+total handovers: 0
+total drop rate: 36.729694%
+24mins, throughput per UE: 2683747 bytes/s
+total handovers: 0
+total drop rate: 36.733578%
+24mins, throughput per UE: 2685518 bytes/s
+total handovers: 0
+total drop rate: 36.718651%
+24mins, throughput per UE: 2682789 bytes/s
+total handovers: 0
+total drop rate: 36.784546%
+24mins, throughput per UE: 2802817 bytes/s
+total handovers: 0
+total drop rate: 32.254513%
+24mins, throughput per UE: 2885436 bytes/s
+total handovers: 0
+total drop rate: 31.975863%
+24mins, throughput per UE: 3058744 bytes/s
+total handovers: 0
+total drop rate: 27.762676%
+24mins, throughput per UE: 3064972 bytes/s
+total handovers: 0
+total drop rate: 27.768538%
+24mins, throughput per UE: 3065992 bytes/s
+total handovers: 0
+total drop rate: 27.508944%
+24mins, throughput per UE: 4171844 bytes/s
+total handovers: 80
+total drop rate: 1.268077%
+24mins, throughput per UE: 4215744 bytes/s
+total handovers: 78
+total drop rate: 0.297792%
+24mins, throughput per UE: 4215077 bytes/s
+total handovers: 74
+total drop rate: 0.753654%
+24mins, throughput per UE: 4212929 bytes/s
+total handovers: 72
+total drop rate: 0.427883%
+24mins, throughput per UE: 4205365 bytes/s
+total handovers: 81
+total drop rate: 0.876350%
+24mins, throughput per UE: 4202458 bytes/s
+total handovers: 71
+total drop rate: 0.768027%
+24mins, throughput per UE: 4209315 bytes/s
+total handovers: 82
+total drop rate: 0.869660%
+24mins, throughput per UE: 2708693 bytes/s
+total handovers: 86
+total drop rate: 35.103699%
+24mins, throughput per UE: 2553771 bytes/s
+total handovers: 2
+total drop rate: 39.228756%
+24mins, throughput per UE: 4197414 bytes/s
+total handovers: 83
+total drop rate: 0.825258%
+24mins, throughput per UE: 1887934 bytes/s
+total handovers: 33
+total drop rate: 54.510593%
+24mins, throughput per UE: 4154891 bytes/s
+total handovers: 85
+total drop rate: 1.574040%
+24mins, throughput per UE: 4212083 bytes/s
+total handovers: 88
+total drop rate: 0.992243%
+24mins, throughput per UE: 4126287 bytes/s
+total handovers: 79
+total drop rate: 2.418732%
+24mins, throughput per UE: 4210812 bytes/s
+total handovers: 94
+total drop rate: 0.958307%
+24mins, throughput per UE: 4113133 bytes/s
+total handovers: 99
+total drop rate: 2.833428%
+24mins, throughput per UE: 4198020 bytes/s
+total handovers: 83
+total drop rate: 1.164018%
+24mins, throughput per UE: 4226697 bytes/s
+total handovers: 90
+total drop rate: 0.496237%
+24mins, throughput per UE: 4207030 bytes/s
+total handovers: 96
+total drop rate: 0.791683%
+24mins, throughput per UE: 4174415 bytes/s
+total handovers: 78
+total drop rate: 1.599388%
+24mins, throughput per UE: 4200702 bytes/s
+total handovers: 86
+total drop rate: 1.052227%
+24mins, throughput per UE: 4231874 bytes/s
+total handovers: 85
+total drop rate: 0.260788%
+24mins, throughput per UE: 4211885 bytes/s
+total handovers: 85
+total drop rate: 0.682248%
+24mins, throughput per UE: 4216233 bytes/s
+total handovers: 78
+total drop rate: 0.624556%
+24mins, throughput per UE: 4174009 bytes/s
+total handovers: 69
+total drop rate: 1.411981%
+24mins, throughput per UE: 4189567 bytes/s
+total handovers: 86
+total drop rate: 1.159888%
+24mins, throughput per UE: 4184797 bytes/s
+total handovers: 75
+total drop rate: 1.326576%
+24mins, throughput per UE: 4234426 bytes/s
+total handovers: 96
+total drop rate: 0.287778%
+24mins, throughput per UE: 4210326 bytes/s
+total handovers: 100
+total drop rate: 0.722652%
+24mins, throughput per UE: 4195601 bytes/s
+total handovers: 101
+total drop rate: 0.923675%
+24mins, throughput per UE: 4227867 bytes/s
+total handovers: 78
+total drop rate: 0.364077%
+24mins, throughput per UE: 4233702 bytes/s
+total handovers: 379
+total drop rate: 0.000000%
+24mins, throughput per UE: 4227342 bytes/s
+total handovers: 373
+total drop rate: 0.240610%
+24mins, throughput per UE: 4230963 bytes/s
+total handovers: 371
+total drop rate: 0.215093%
+24mins, throughput per UE: 4229464 bytes/s
+total handovers: 383
+total drop rate: 0.222873%
+24mins, throughput per UE: 4224459 bytes/s
+total handovers: 592
+total drop rate: 0.040288%
+24mins, throughput per UE: 4226907 bytes/s
+total handovers: 156
+total drop rate: 0.137732%
+24mins, throughput per UE: 4232529 bytes/s
+total handovers: 135
+total drop rate: 0.078352%
+24mins, throughput per UE: 4212983 bytes/s
+total handovers: 163
+total drop rate: 0.427373%
+24mins, throughput per UE: 4148891 bytes/s
+total handovers: 1279
+total drop rate: 2.192365%
+24mins, throughput per UE: 4244390 bytes/s
+total handovers: 1751
+total drop rate: 0.000000%
+24mins, throughput per UE: 4240818 bytes/s
+total handovers: 1554
+total drop rate: 0.000000%
+24mins, throughput per UE: 4245588 bytes/s
+total handovers: 1489
+total drop rate: 0.000000%
+24mins, throughput per UE: 4241005 bytes/s
+total handovers: 1749
+total drop rate: 0.000000%
+24mins, throughput per UE: 4241299 bytes/s
+total handovers: 1833
+total drop rate: 0.000000%
+24mins, throughput per UE: 4243591 bytes/s
+total handovers: 1538
+total drop rate: 0.000000%
+24mins, throughput per UE: 4240868 bytes/s
+total handovers: 1657
+total drop rate: 0.000000%
+24mins, throughput per UE: 2121789 bytes/s
+total handovers: 184
+total drop rate: 48.470997%
+24mins, throughput per UE: 871389 bytes/s
+total handovers: 331
+total drop rate: 67.791054%
+24mins, throughput per UE: 4226828 bytes/s
+total handovers: 117
+total drop rate: 0.119478%
+24mins, throughput per UE: 3439282 bytes/s
+total handovers: 25
+total drop rate: 18.809710%
+24mins, throughput per UE: 3450351 bytes/s
+total handovers: 0
+total drop rate: 18.699522%
+24mins, throughput per UE: 3449538 bytes/s
+total handovers: 0
+total drop rate: 18.711975%
+24mins, throughput per UE: 4214011 bytes/s
+total handovers: 115
+total drop rate: 0.253847%
+24mins, throughput per UE: 3948214 bytes/s
+total handovers: 157
+total drop rate: 6.368728%
+24mins, throughput per UE: 2959850 bytes/s
+total handovers: 0
+total drop rate: 30.107821%
+24mins, throughput per UE: 2966530 bytes/s
+total handovers: 0
+total drop rate: 30.050581%
+24mins, throughput per UE: 2768000 bytes/s
+total handovers: 0
+total drop rate: 34.684120%
+24mins, throughput per UE: 2772928 bytes/s
+total handovers: 0
+total drop rate: 34.676468%
+24mins, throughput per UE: 2744463 bytes/s
+total handovers: 0
+total drop rate: 35.204090%
+24mins, throughput per UE: 2746807 bytes/s
+total handovers: 0
+total drop rate: 35.240147%
+24mins, throughput per UE: 2745849 bytes/s
+total handovers: 0
+total drop rate: 35.219563%
+24mins, throughput per UE: 2763124 bytes/s
+total handovers: 0
+total drop rate: 34.875576%
+24mins, throughput per UE: 2758646 bytes/s
+total handovers: 0
+total drop rate: 34.932285%
+24mins, throughput per UE: 3538005 bytes/s
+total handovers: 258
+total drop rate: 15.472298%
+24mins, throughput per UE: 2719542 bytes/s
+total handovers: 80
+total drop rate: 35.694237%
+24mins, throughput per UE: 4212197 bytes/s
+total handovers: 475
+total drop rate: 0.475143%
+24mins, throughput per UE: 4222276 bytes/s
+total handovers: 458
+total drop rate: 0.287859%
+24mins, throughput per UE: 3577380 bytes/s
+total handovers: 482
+total drop rate: 15.495836%
+24mins, throughput per UE: 4243067 bytes/s
+total handovers: 475
+total drop rate: 0.167314%
+24mins, throughput per UE: 4219859 bytes/s
+total handovers: 460
+total drop rate: 0.457722%
+24mins, throughput per UE: 4230266 bytes/s
+total handovers: 445
+total drop rate: 0.249692%
+24mins, throughput per UE: 4224071 bytes/s
+total handovers: 528
+total drop rate: 0.244557%
+24mins, throughput per UE: 3181982 bytes/s
+total handovers: 283
+total drop rate: 20.943022%
+24mins, throughput per UE: 1654636 bytes/s
+total handovers: 0
+total drop rate: 61.023098%
+24mins, throughput per UE: 1653516 bytes/s
+total handovers: 0
+total drop rate: 61.017303%
+24mins, throughput per UE: 1653320 bytes/s
+total handovers: 0
+total drop rate: 61.039120%
+24mins, throughput per UE: 1654047 bytes/s
+total handovers: 0
+total drop rate: 61.032562%
+24mins, throughput per UE: 4189796 bytes/s
+total handovers: 407
+total drop rate: 0.942725%
+24mins, throughput per UE: 4208792 bytes/s
+total handovers: 454
+total drop rate: 0.706739%
+24mins, throughput per UE: 4184538 bytes/s
+total handovers: 425
+total drop rate: 1.025244%
+24mins, throughput per UE: 4134723 bytes/s
+total handovers: 455
+total drop rate: 2.278684%
+24mins, throughput per UE: 3925545 bytes/s
+total handovers: 450
+total drop rate: 7.738212%
+24mins, throughput per UE: 4216637 bytes/s
+total handovers: 456
+total drop rate: 0.704302%
+24mins, throughput per UE: 4141189 bytes/s
+total handovers: 424
+total drop rate: 2.189499%
+24mins, throughput per UE: 4223080 bytes/s
+total handovers: 439
+total drop rate: 0.603945%
+24mins, throughput per UE: 4211714 bytes/s
+total handovers: 436
+total drop rate: 0.767064%
+24mins, throughput per UE: 4214890 bytes/s
+total handovers: 454
+total drop rate: 0.629767%
+24mins, throughput per UE: 4206901 bytes/s
+total handovers: 443
+total drop rate: 0.815802%
+24mins, throughput per UE: 4224051 bytes/s
+total handovers: 427
+total drop rate: 0.516405%
+24mins, throughput per UE: 4171281 bytes/s
+total handovers: 445
+total drop rate: 1.668061%
+24mins, throughput per UE: 4215927 bytes/s
+total handovers: 450
+total drop rate: 0.685841%
+24mins, throughput per UE: 4140905 bytes/s
+total handovers: 477
+total drop rate: 2.438487%
+24mins, throughput per UE: 2564259 bytes/s
+total handovers: 136
+total drop rate: 33.906979%
+24mins, throughput per UE: 2095408 bytes/s
+total handovers: 0
+total drop rate: 50.637997%
+24mins, throughput per UE: 2096944 bytes/s
+total handovers: 0
+total drop rate: 50.604992%
+24mins, throughput per UE: 2094420 bytes/s
+total handovers: 0
+total drop rate: 50.633423%
+24mins, throughput per UE: 2096763 bytes/s
+total handovers: 0
+total drop rate: 50.620956%
+24mins, throughput per UE: 2093190 bytes/s
+total handovers: 0
+total drop rate: 50.633926%
+24mins, throughput per UE: 3022892 bytes/s
+total handovers: 28
+total drop rate: 28.349224%
+24mins, throughput per UE: 3039092 bytes/s
+total handovers: 0
+total drop rate: 28.399914%
+24mins, throughput per UE: 3037704 bytes/s
+total handovers: 0
+total drop rate: 28.381084%
+24mins, throughput per UE: 3036303 bytes/s
+total handovers: 0
+total drop rate: 28.417694%
+24mins, throughput per UE: 3038745 bytes/s
+total handovers: 0
+total drop rate: 28.387636%
+24mins, throughput per UE: 3169678 bytes/s
+total handovers: 362
+total drop rate: 23.963264%
+24mins, throughput per UE: 3404629 bytes/s
+total handovers: 344
+total drop rate: 18.560890%
+24mins, throughput per UE: 2608376 bytes/s
+total handovers: 0
+total drop rate: 37.124058%
+24mins, throughput per UE: 2643277 bytes/s
+total handovers: 0
+total drop rate: 36.315662%
+24mins, throughput per UE: 2455757 bytes/s
+total handovers: 0
+total drop rate: 40.627651%
+24mins, throughput per UE: 2352953 bytes/s
+total handovers: 0
+total drop rate: 41.724892%
+24mins, throughput per UE: 4118829 bytes/s
+total handovers: 424
+total drop rate: 2.671856%
+24mins, throughput per UE: 4236089 bytes/s
+total handovers: 681
+total drop rate: 0.092386%
+24mins, throughput per UE: 4215569 bytes/s
+total handovers: 595
+total drop rate: 0.326385%
+24mins, throughput per UE: 4254016 bytes/s
+total handovers: 829
+total drop rate: 0.000000%
+24mins, throughput per UE: 4225007 bytes/s
+total handovers: 461
+total drop rate: 0.000000%
+24mins, throughput per UE: 2876957 bytes/s
+total handovers: 25
+total drop rate: 32.281734%
+24mins, throughput per UE: 2873789 bytes/s
+total handovers: 0
+total drop rate: 32.326920%
