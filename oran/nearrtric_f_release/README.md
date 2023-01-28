@@ -7,7 +7,7 @@ cd ric-dep/bin
 ```
 add ip address
 ```
-nano ric-dep/RECIPE_EXAMPLE/PLATFORM/example_recipe_latest_stable.yaml
+nano ric-dep/RECIPE_EXAMPLE/example_recipe_oran_f_release.yaml
 ```
 ```
 extsvcplt:
@@ -16,7 +16,7 @@ extsvcplt:
 ```
 ## install NearRT
 ```
-/install -f ../RECIPE_EXAMPLE/PLATFORM/example_recipe_latest_stable.yaml
+./install -f ../RECIPE_EXAMPLE/example_recipe_oran_f_release.yaml
 ```
 ### install xapp deploy tool
 ```
