@@ -1,0 +1,8 @@
+{
+    "config":{
+      "controller": {{ .Values.policymanagementservice.controllers  | indent 12 }},
+      "ric": {{ .Values.policymanagementservice.ric  | indent 12 }},
+      "streams_publishes": {{ .Values.policymanagementservice.streams_publishes  | indent 12 }},
+      "streams_subscribes": {{ .Values.policymanagementservice.streams_subscribes  | indent 12 }}
+    }
+}

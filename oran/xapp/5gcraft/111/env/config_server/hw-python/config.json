@@ -1,0 +1,41 @@
+{
+        "xapp_name": "hw-python",
+        "version": "1.0.0",
+        "containers": [
+            {
+                "name": "hw-python",
+                "image": {
+                    "registry": "nexus3.o-ran-sc.org:10004",
+                    "name": "o-ran-sc/ric-app-hw-python",
+                    "tag": "1.0.0"
+                }
+            }
+        ],
+        "messaging": {
+            "ports": [
+                {
+                    "name": "rmr-data",
+                    "container": "hw-python",
+                    "port": 4560,
+                    "rxMessages": ["HO_UE_LIST"],
+                    "txMessages": [],
+                    "policies": [],
+                    "description": "rmr receive data port for hw"
+                },
+                {
+                    "name": "rmr-route",
+                    "container": "hw-python",
+                    "port": 4561,
+                    "description": "rmr route port for hw"
+                }
+            ]
+        },
+        "rmr": {
+            "protPort": "tcp:4560",
+            "maxSize": 2072,
+            "numWorkers": 1,
+            "rxMessages": ["HO_UE_LIST"],
+            "txMessages": [],
+            "policies": []
+        }
+}
