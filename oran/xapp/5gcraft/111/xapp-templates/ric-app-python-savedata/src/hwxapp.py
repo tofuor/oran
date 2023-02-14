@@ -114,6 +114,7 @@ class HWXapp:
         self.read_csv()
         
         mdc_logger.info("show values")
+
         values = SDL.find_and_get(A1NS, UE_KEY, usemsgpack=False).values()
         mdc_logger.info("show CELL_NS values")
         cell_data_list = list(SDL.find_and_get(CELL_NS, "", usemsgpack=False).values())
@@ -136,6 +137,24 @@ class HWXapp:
         #     sub_mgr.send_subscription_request(gnb)
         # metric_mgr = MetricManager(rmr_xapp)
         # metric_mgr.send_metric()
+
+        while True:
+            cell_data = []
+            cell_data_list = list(SDL.find_and_get(CELL_NS, "", usemsgpack=False).values())
+            if cell_data_list != None:
+                for cell_data_bytes in cell_data_list:
+                    cell_data.append(json.loads(cell_data_bytes.decode()))
+
+            print(cell_data)
+
+            ue_data = []
+            ue_data_list = list(SDL.find_and_get(UE_NS, "", usemsgpack=False).values())
+            if ue_data_list != None:
+                for ue_data_bytes in ue_data_list:
+                    ue_data.append(json.loads(ue_data_bytes.decode()))
+
+            print(ue_data)
+            time.sleep(1)
 
     def _handle_config_change(self, rmr_xapp, config):
         """

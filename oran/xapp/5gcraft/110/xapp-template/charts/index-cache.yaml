@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  python-savedata:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-11T08:11:47.766236039Z"
+    description: Standard xApp Helm Chart
+    digest: d309ce833c13e74b74c9b55a53bf03d26b8e0a023dcd23445cc43937c15947b4
+    name: python-savedata
+    urls:
+    - charts/python-savedata-1.0.0.tgz
+    version: 1.0.0
+  ts:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-11T08:24:19.760101538Z"
+    description: Standard xApp Helm Chart
+    digest: 767abef1477ce1d91dcd02f4e296840e95f6fc9e382aad245edeb488182959d7
+    name: ts
+    urls:
+    - charts/ts-0.0.2.tgz
+    version: 0.0.2
+generated: "2023-02-11T08:24:20Z"
+serverInfo: {}

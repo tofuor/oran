@@ -17,4 +17,8 @@ def hw_python_config():
 def hw_cpp_config():
   return readData("hw-cpp/config.json")
 
+@app.route('/hw-cpp/config', methods=['GET'])
+def hw_cpp_config():
+  return readData("hw-cpp/config.json")
+
 app.run(host='0.0.0.0', port=30033)

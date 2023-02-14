@@ -57,9 +57,15 @@ def post_init(self):
         if cell_data_list != None:
             for cell_data_bytes in cell_data_list:
                 cell_data.append(json.loads(cell_data_bytes.decode()))
+        print(cell_data)
 
+        ue_data = []
         ue_data_list = list(sdl.find_and_get(UE_NS, "", usemsgpack=False).values())
-
+        if ue_data_list != None:
+            for ue_data_bytes in ue_data_list:
+                ue_data.append(json.loads(ue_data_bytes.decode()))
+        print(ue_data)
+        
         if ue_data_list != None:
 
             loggerStr = ""
@@ -227,13 +233,13 @@ def a1policy(bt):
     """
     Function that processes messages for getting A1 Policy value
     """
-    response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/1/policies?policytype_id=1")
+    response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/123/policies?policytype_id=123")
 
     if response.status_code == 200:
         ins = response.text[5:-4]
         #print(ins)
 
-        response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/1/policies/{ins}")
+        response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/123/policies/{ins}")
 
         if response.status_code == 200:
             if "ueId" in response.text:
