@@ -13,6 +13,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 # ==================================================================================
+FROM tensorflow/tensorflow
 FROM python:3.8-alpine
 
 # sdl needs gcc
@@ -48,6 +49,10 @@ COPY LICENSE.txt /tmp/
 COPY ts/ /tmp/ts
 RUN pip install requests
 RUN pip install /tmp
+RUN pip install tensorflow-cpu
+
+ENV DBAAS_SERVICE_PORT=6379
+ENV DBAAS_SERVICE_HOST=service-ricplt-dbaas-tcp.ricplt.svc.cluster.local
 
 
 # Run
