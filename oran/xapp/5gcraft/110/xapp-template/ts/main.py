@@ -47,24 +47,28 @@ def post_init(self):
 
     logger.debug(f"init var")
 
+    data_buffer = [[1,1,1],[1,1,1],[1,1,1]]
+    buffer_flag = 1
+
     while True:
 
-        tmp = a1policy(sinr_threshold)
+        #tmp = a1policy(sinr_threshold)
         sinr_threshold = tmp if tmp != -100 else sinr_threshold
+        sinr_threshold = 20
 
         cell_data = []
         cell_data_list = list(sdl.find_and_get(CELL_NS, "", usemsgpack=False).values())
         if cell_data_list != None:
             for cell_data_bytes in cell_data_list:
                 cell_data.append(json.loads(cell_data_bytes.decode()))
-        print(cell_data)
+        # print(cell_data)
 
-        ue_data = []
+        # ue_data = []
         ue_data_list = list(sdl.find_and_get(UE_NS, "", usemsgpack=False).values())
-        if ue_data_list != None:
-            for ue_data_bytes in ue_data_list:
-                ue_data.append(json.loads(ue_data_bytes.decode()))
-        print(ue_data)
+        # if ue_data_list != None:
+        #     for ue_data_bytes in ue_data_list:
+        #         ue_data.append(json.loads(ue_data_bytes.decode()))
+        # print(ue_data)
         
         if ue_data_list != None:
 
@@ -124,8 +128,17 @@ def post_init(self):
                         nbCID = int(neighborCell["CID"][-2:],16)
                         neighborCell["CID"] = nbCID
                         neighborCell["PRB"] = cell_data[nbCID-1]["Avail-PRB-DL"]
+                    
+                    # print(type(ue_data["Serving-Cell-RF"]["rsSinr"]))
+                    if (ue_data["Serving-Cell-RF"]["rsSinr"]):
+                        pass
+                        
+                    else:
+                        ue_data["Serving-Cell-RF"]["rsSinr"] = 0
 
-                    if sinr_threshold <= int(ue_data["Serving-Cell-RF"]["rsSinr"]):
+                    # print(ue_data["Serving-Cell-RF"]["rsSinr"])
+                    # print(sinr_threshold)
+                    if sinr_threshold <= ue_data["Serving-Cell-RF"]["rsSinr"]:
                         printUEStatus = 0
 
                     if (printUEStatus > 0):
@@ -159,7 +172,7 @@ def post_init(self):
                             data = f'{ue_data["UE-ID"]},{CID},{targetCell2[0]}'
                             response = requests.post(base_url, headers = headers, data = data)
                             same_cell_count = 0
-                            print(f'--HANDOVER--{data}, status_code={response.status_code}, text={response.text}')
+                            # print(f'--HANDOVER--{data}, status_code={response.status_code}, text={response.text}')
 
                         loggerStr = loggerStr + f'--UEERROR--UEID={ue_data["UE-ID"]}, '
                         loggerStr = loggerStr + f'x= {ue_data["Meas-Timestamp-PRB"]["tv-sec"]}, '
@@ -185,7 +198,7 @@ def post_init(self):
                             data = f'{ue_data["UE-ID"]},{CID},{targetCell[0]}'
                             response = requests.post(base_url, headers = headers, data = data)
                             problem_count = 0
-                            print(f'--HANDOVER--{data}, status_code={response.status_code}, text={response.text}')
+                            # print(f'--HANDOVER--{data}, status_code={response.status_code}, text={response.text}')
                     else:
                         loggerStr2 = loggerStr2 + f'--UENORMAL--UEID={ue_data["UE-ID"]}, '
                         loggerStr2 = loggerStr2 + f'x= {ue_data["Meas-Timestamp-PRB"]["tv-sec"]}, '
@@ -216,39 +229,78 @@ def post_init(self):
                                             ue_data["PDCP-Bytes-DL"]]
 
 
-            print(f'--CELLSTATUS--{str(serving_cell)}')
+            # print(f'--CELLSTATUS--{str(serving_cell)}')
 
             if loggerStr != "":
-                print(loggerStr[:-1])
+                # print(loggerStr[:-1])
                 ueCnt = str(len(loggerStr[:-1].split("\n")))
-                print(f'--UEERROR--UE_count= {ueCnt}, drop data= {predDropData} bytes\n')
+                # print(f'--UEERROR--UE_count= {ueCnt}, drop data= {predDropData} bytes\n')
 
-            print(loggerStr2[:-1])
+            # print(loggerStr2[:-1])
             ueCnt = str(len(loggerStr2.split("\n"))-1)
-            print(f'--UENORMAL--UE_count= {ueCnt}\n')
+            # print(f'--UENORMAL--UE_count= {ueCnt}\n')
 
+            # print(ue_data["UE-ID"])
+            # print(type(ue_data["UE-ID"]))
+            # # if (ue_data["UE-ID"]) == "9":
+            # print(ueCnt)
+            tmp={
+                'X':[],
+                'Y':[],
+                'rsrp':[]
+                }
+            if buffer_flag >= 3:
+                aiml_url = f"http://{hostIP}:5000"
+                headers = {'Content-Type': 'text/plain'}
+                data = [ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]]
+                data_buffer[2] = data_buffer[1]
+                data_buffer[1] = data_buffer[0]
+                data_buffer[0] = data
+
+                for i in range(3):
+                    tmp['X'].append(data_buffer[i][0])
+                    tmp['Y'].append(data_buffer[i][1])
+                    tmp['rsrp'].append(data_buffer[i][2])
+                for i in range(3):
+                    # print({'input': tmp['X']})
+                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['X']})
+                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['Y']})
+                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['rsrp']})                 
+
+            else:
+                print("data_buffer is not full")
+                data = ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]
+                print(f'store data in data_buffer[{buffer_flag-1}]，data = {data}')
+                data_buffer[2] = data_buffer[1]
+                data_buffer[1] = data_buffer[0]
+                data_buffer[0] = data
+                buffer_flag = buffer_flag + 1
+            
+
+        
         time.sleep(1)
 
 def a1policy(bt):
     """
     Function that processes messages for getting A1 Policy value
     """
-    response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/123/policies?policytype_id=123")
+    response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/1/policies?policytype_id=1")
 
     if response.status_code == 200:
+        
         ins = response.text[5:-4]
-        #print(ins)
+        # print(ins)
 
-        response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/123/policies/{ins}")
+        response = requests.get(f"http://{hostIP}:32080/a1mediator/a1-p/policytypes/1/policies/{ins}")
 
         if response.status_code == 200:
             if "ueId" in response.text:
                 r = json.loads(response.text)["scope"]["qosId"]
-                print(f"A1 Policy changed. qosId= {r}")
-            else:
-                print(response.text)
-        else:
-            print(response.text)
+                # print(f"A1 Policy changed. qosId= {r}")
+        #     else:
+        #         print(response.text)
+        # else:
+        #     print(response.text)
 
 def ts_default_handler(self, summary, sbuf):
     """
