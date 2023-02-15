@@ -5,7 +5,7 @@
             {
                 "name": "ts",
                 "image": {
-                    "registry": "nexus3.o-ran-sc.org:10002",
+                    "registry": "nexus2.o-ran-sc.org:10002",
                     "name": "o-ran-sc/ric-app-ts",
                     "tag": "0.0.2"
                 }
