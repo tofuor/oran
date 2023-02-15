@@ -26,6 +26,8 @@ logger = Logger(name=__name__)
 logger.set_level(10)
 sdl = None
 hostIP = "192.168.122.65"
+aiml_IP_and_port = "192.168.122.65:6969"
+ue_id = "22"
 
 UE_NS = "TS-UE-metrics"
 CELL_NS = "TS-cell-metrics"
@@ -53,7 +55,8 @@ def post_init(self):
     while True:
 
         #tmp = a1policy(sinr_threshold)
-        sinr_threshold = tmp if tmp != -100 else sinr_threshold
+        #sinr_threshold = tmp if tmp != -100 else sinr_threshold
+        ue_data_22 = [0,0,0]
         sinr_threshold = 20
 
         cell_data = []
@@ -214,6 +217,8 @@ def post_init(self):
                         loggerStr2 = loggerStr2 + f'data={ue_data["PDCP-Bytes-DL"]}, '
                         loggerStr2 = loggerStr2 + f'others= {str(neighborCells)}\n'
 
+                    
+
                 old_uedata[ue_data["UE-ID"]] = [ue_data["UE-ID"],
                                             ue_data["Serving-Cell-ID"],
                                             ue_data["Meas-Timestamp-PRB"]["tv-sec"],
@@ -228,6 +233,8 @@ def post_init(self):
                                             ue_data["Neighbor-Cell-RF"],
                                             ue_data["PDCP-Bytes-DL"]]
 
+                if (ue_data["UE-ID"]) == ue_id:
+                    ue_data_22 = ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]
 
             # print(f'--CELLSTATUS--{str(serving_cell)}')
 
@@ -244,37 +251,39 @@ def post_init(self):
             # print(type(ue_data["UE-ID"]))
             # # if (ue_data["UE-ID"]) == "9":
             # print(ueCnt)
-            tmp={
-                'X':[],
-                'Y':[],
-                'rsrp':[]
-                }
-            if buffer_flag >= 3:
-                aiml_url = f"http://{hostIP}:5000"
-                headers = {'Content-Type': 'text/plain'}
-                data = [ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]]
-                data_buffer[2] = data_buffer[1]
-                data_buffer[1] = data_buffer[0]
-                data_buffer[0] = data
 
-                for i in range(3):
-                    tmp['X'].append(data_buffer[i][0])
-                    tmp['Y'].append(data_buffer[i][1])
-                    tmp['rsrp'].append(data_buffer[i][2])
-                for i in range(3):
-                    # print({'input': tmp['X']})
-                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['X']})
-                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['Y']})
-                    response = requests.post(aiml_url, headers = headers, data = {'input': tmp['rsrp']})                 
+            
 
-            else:
-                print("data_buffer is not full")
-                data = ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]
-                print(f'store data in data_buffer[{buffer_flag-1}]，data = {data}')
-                data_buffer[2] = data_buffer[1]
-                data_buffer[1] = data_buffer[0]
-                data_buffer[0] = data
-                buffer_flag = buffer_flag + 1
+        tmp={
+            'X':[],
+            'Y':[],
+            'rsrp':[]
+            }
+        if buffer_flag >= 3:
+            aiml_url = f"http://{aiml_IP_and_port}"
+            headers = {'Content-Type': 'text/plain'}
+            # data = [ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]]
+            data_buffer[2] = data_buffer[1]
+            data_buffer[1] = data_buffer[0]
+            data_buffer[0] = ue_data_22
+            for i in range(3):
+                tmp['X'].append(data_buffer[i][0])
+                tmp['Y'].append(data_buffer[i][1])
+                tmp['rsrp'].append(data_buffer[i][2])
+            for i in range(3):
+                # print({'input': tmp['X']})
+                response = requests.post(aiml_url, headers = headers, data = {'input': tmp['X']})
+                response = requests.post(aiml_url, headers = headers, data = {'input': tmp['Y']})
+                response = requests.post(aiml_url, headers = headers, data = {'input': tmp['rsrp']})                 
+
+        else:
+            print("data_buffer is not full")
+            # data = ue_data["Meas-Timestamp-PRB"]["tv-sec"],ue_data["Meas-Timestamp-PRB"]["tv-nsec"],ue_data["Serving-Cell-RF"]["rsrp"]
+            print(f'store data in data_buffer[{buffer_flag-1}]，data = {ue_data_22}')
+            data_buffer[2] = data_buffer[1]
+            data_buffer[1] = data_buffer[0]
+            data_buffer[0] = ue_data_22
+            buffer_flag = buffer_flag + 1
             
 
         
