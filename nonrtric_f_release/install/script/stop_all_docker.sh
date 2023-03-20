@@ -1,1 +1,2 @@
-docker stop $(docker ps -q)
+docker kill $(docker ps -q)
+#docker container prune

@@ -1,0 +1,7 @@
+{
+  "info_type_id": "A1_EI_test_Messages",
+  "job_result_uri": "http://192.168.122.65:32080/a1mediator/a1-p/healthcheck",
+  "job_owner": "localtest",
+  "status_notification_uri": "http://localhost:6969/info_job",
+  "job_definition": {}
+}

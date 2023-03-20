@@ -81,25 +81,25 @@ services:
       - ./dmaap_adapter/application.yaml:/opt/app/dmaap-adaptor-service/config/application.yaml
       - ./dmaap_adapter/application_configuration.json:/opt/app/dmaap-adaptor-service/data/application_configuration.json
   
-  dmaap-mediator-producer:
-    image: "${DMAAP_MEDIATOR_GO_BASE}:${DMAAP_MEDIATOR_GO_TAG}"
-    container_name: dmaapmediatorservice
-    networks:
-      - nonrtric-docker-net
-    ports:
-      - 8085:8085
-      - 8436:8436
-    environment:
-      - INFO_PRODUCER_HOST=http://dmaapmediatorservice
-      - INFO_PRODUCER_PORT=8085
-      - INFO_COORD_ADDR=http://information-coordinator-service:8083
-      - DMAAP_MR_ADDR=https://192.168.122.88:3905
-      - PRODUCER_CERT_PATH=security/producer.crt
-      - PRODUCER_KEY_PATH=security/producer.key
-      - KAFKA_BOOTSTRAP_SERVERS=http://192.168.122.88:9092
-      - LOG_LEVEL=Debug
-    volumes:
-    - ./dmaap_mediator_producer/type_config.json:/configs/type_config.json
+  # dmaap-mediator-producer:
+  #   image: "${DMAAP_MEDIATOR_GO_BASE}:${DMAAP_MEDIATOR_GO_TAG}"
+  #   container_name: dmaapmediatorservice
+  #   networks:
+  #     - nonrtric-docker-net
+  #   ports:
+  #     - 8085:8085
+  #     - 8436:8436
+  #   environment:
+  #     - INFO_PRODUCER_HOST=http://dmaapmediatorservice
+  #     - INFO_PRODUCER_PORT=8085
+  #     - INFO_COORD_ADDR=http://information-coordinator-service:8083
+  #     - DMAAP_MR_ADDR=https://192.168.122.88:3905
+  #     - PRODUCER_CERT_PATH=security/producer.crt
+  #     - PRODUCER_KEY_PATH=security/producer.key
+  #     - KAFKA_BOOTSTRAP_SERVERS=http://192.168.122.88:9092
+  #     - LOG_LEVEL=Debug
+  #   volumes:
+  #   - ./dmaap_mediator_producer/type_config.json:/configs/type_config.json
 
   app-catalogue-service:
     image: ${APP_CATALOGUE_IMAGE}

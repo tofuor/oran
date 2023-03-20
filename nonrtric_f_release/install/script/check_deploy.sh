@@ -51,9 +51,12 @@ echo "Put kafka message ......"
 curl -k -X PUT -H Content-Type:application/json https://localhost:8434/data-consumer/v1/info-jobs/job2 --data-binary @job2.json
 curl -k https://localhost:8434/A1-EI/v1/eijobs/job2/status
 
+curl -k -X PUT -H Content-Type:application/json https://localhost:8434/data-consumer/v1/info-jobs/job3 --data-binary @job3.json
+curl -k https://localhost:8434/A1-EI/v1/eijobs/job2/status
+
 # echo ""
 # echo "***************************check Dmaap Mediator Producer***************************"
-# curl -X PUT -H Content-Type:application/json https://localhost:8083/data-producer/v1/info-jobs/job3 --data-binary @job3.json
+# curl -k -X PUT -H Content-Type:application/json https://localhost:8434/data-producer/v1/info-jobs/job3 --data-binary @job3.json
 # echo ""
 # curl -k https://localhost:8434/A1-EI/v1/eijobs/job3/status
 
