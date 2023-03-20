@@ -51,6 +51,6 @@ app:
   # Location of the component configuration file. The file will only be used if the Consul database is not used;
   # configuration from the Consul will override the file.
   configuration-filepath: /opt/app/dmaap-adaptor-service/data/application_configuration.json
-  dmaap-base-url: http://192.168.122.88:3904
+  dmaap-base-url: http://{ONAP_IP}:3904
   # The url used to address this component. This is used as a callback url sent to other components.
   dmaap-adapter-base-url: http://dmaap-adaptor-service:8084
