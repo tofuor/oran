@@ -6,5 +6,5 @@ git clone "https://gerrit.o-ran-sc.org/r/nonrtric/plt/informationcoordinatorserv
 git clone "https://gerrit.o-ran-sc.org/r/nonrtric/plt/rappcatalogue" -b g-release
 git clone "https://gerrit.o-ran-sc.org/r/nonrtric/rapp/ransliceassurance" -b g-release
 git clone "https://gerrit.o-ran-sc.org/r/nonrtric/rapp/orufhrecovery" -b g-release
-     git clone "https://gerrit.o-ran-sc.org/r/nonrtric/rapp/orufhrecovery" -b g-release
-     git clone "https://gerrit.o-ran-sc.org/r/nonrtric/plt/sme" -b g-release         
+git clone "https://gerrit.o-ran-sc.org/r/nonrtric/rapp/orufhrecovery" -b g-release
+git clone "https://gerrit.o-ran-sc.org/r/nonrtric/plt/sme" -b g-release         

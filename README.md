@@ -1,14 +1,14 @@
 # oran
 mitlab B5G group
 
-## install Non-RT RIC f release with docker 
-### 1. deploy service
-```
-    cd $(HOME)/nonrtric_f_release/install/script
-    sudo sh deploy_nonrtric.sh 
-```
-### 2. deploy rapp
-```
-    cd $(HOME)/nonrtric_f_release/rapp/rApp_A1_test
-    sudo sh build_rapp.sh
-```
+## File Description
+### 1. nonrtric_f_release
+My Non-RT RIC
+### 2. nonrtric_g_release
+My Non-RT RIC
+
+### 3. osc_f_release
+官方檔案
+
+### 4. osc_g_release
+官方檔案
