@@ -1,9 +1,9 @@
 {
-    "types":
-      [
-        {
-          "id": "A1_EI_test_Messages",
-          "testUrl": "test_A1-EI"
-        }
-      ]
+  "types": [
+    {
+      "id": "A1_EI_test_Messages",
+      "testUrl": "test_A1-EI",
+      "TypeSchema": "hi A1-EI"
+    }
+  ]
 }

@@ -1,8 +1,14 @@
 {
    "types": [
       {
-         "id": "Performance_Measurement_Streaming",
-         "dmaapTopicUrl": "/events/unauthenticated.VES_O_RAN_SC_HELLO_WORLD_PM_STREAMING_OUTPUT/myG/C1"
-      }
+         "id": "ExampleInformationType",
+         "dmaapTopicUrl": "/events/unauthenticated.VES_O_RAN_SC_HELLO_WORLD_PM_STREAMING_OUTPUT/myG/C1",
+         "useHttpProxy": false
+      },
+      {
+       "id": "ExampleInformationTypeKafka",
+       "kafkaInputTopic": "unauthenticated.dmaapadp_kafka.text",
+       "useHttpProxy": false
+    }
    ]
-}
+ }

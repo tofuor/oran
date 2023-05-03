@@ -1,3 +1,5 @@
+NearRT=192.168.122.65
+ONAP_IP=192.168.122.88
 echo "***************************check A1 Policy Management Service***************************"
 curl localhost:8081/a1-policy/v2/rics
 
@@ -18,13 +20,13 @@ curl -X PUT -v "http://localhost:8085/a1-p/policytypes/30" -H "accept: applicati
 
 echo ""
 echo "***************************put policy type in nearRT***************************"
-curl -X PUT -v "http://{NearRT}:32080/a1mediator/a1-p/policytypes/1" -H "accept: application/json" \
+curl -X PUT -v "http://${NearRT}:32080/a1mediator/a1-p/policytypes/1" -H "accept: application/json" \
  -H "Content-Type: application/json" --data-binary @osc_pt1.json
 sleep 5
-curl -X PUT -v "http://{NearRT}:32080/a1mediator/a1-p/policytypes/2" -H "accept: application/json" \
+curl -X PUT -v "http://${NearRT}:32080/a1mediator/a1-p/policytypes/2" -H "accept: application/json" \
  -H "Content-Type: application/json" --data-binary @osc_pt2.json
 sleep 5
-curl -X PUT -v "http://{NearRT}:32080/a1mediator/a1-p/policytypes/3" -H "accept: application/json" \
+curl -X PUT -v "http://${NearRT}:32080/a1mediator/a1-p/policytypes/3" -H "accept: application/json" \
  -H "Content-Type: application/json" --data-binary @osc_pt3.json
 
 echo ""
