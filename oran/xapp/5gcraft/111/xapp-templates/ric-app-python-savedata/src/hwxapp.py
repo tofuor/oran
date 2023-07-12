@@ -185,63 +185,63 @@ class HWXapp:
         A1PolicyHandler(self._rmr_xapp, Constants.A1_POLICY_REQ)
         SubscriptionHandler(self._rmr_xapp,Constants.SUBSCRIPTION_REQ)
     
-    # def model_start(self):
-    #     model = load_model('/tmp/model/LSTM_test.h5')
+    def model_start(self):
+        model = load_model('/tmp/model/LSTM_test.h5')
 
-    #     ##### predict
-    #     # mdc_logger.info("values type = " + str(type(values))) 
-    #     # mdc_logger.info("values = " + str(values))
-    #     ten_values = list(json.loads(v.decode()) for v in values)
-    #     # mdc_logger.info("ten_values = " + str(ten_values))
-    #     data = []
-    #     delta_xyz = []
-    #     for i in range(0,10):
-    #         timestamp = ten_values[i]['meas_timestamp_pos']
-    #         if i == 0:
-    #             speed_x = 0
-    #             speed_y = 0
-    #             speed_z = 0
-    #         else:
-    #             speed_x = ten_values[i]['pos_x'] - ten_values[i-1]['pos_x']
-    #             speed_y = ten_values[i]['pos_y'] - ten_values[i-1]['pos_y']
-    #             speed_z = ten_values[i]['pos_z'] - ten_values[i-1]['pos_z']
-    #         data.append([ten_values[i]['pos_x'], ten_values[i]['pos_y'], ten_values[i]['pos_z'], speed_x, speed_y, speed_z])
-    #     # mdc_logger.info("============================")
-    #     # mdc_logger.info(data)
-    #     data = np.array(data)
-    #     data_3 = np.reshape(data, (1, data.shape[0], data.shape[1]))
-    #     # mdc_logger.info(data_3.shape)
-    #     # mdc_logger.info("============================")
-    #     predict_test = model.predict(data_3)
-    #     # mdc_logger.info("predict_test = " + str(predict_test))
-    #     # mdc_logger.info("timestamp = " + str(ten_values[9]['meas_timestamp_pos']))
-    #     predict_json = {
-    #              "meas_timestamp_pos": 0,
-    #              "pos_x": -100.0000000001,
-    #              "pos_y": -10.0000000001,
-    #              "pos_z": -1.00000000001,
-    #              "process_time": 0
-    #     }
-    #     values = SDL.find_and_get(A1NS, UE_KEY, usemsgpack=False).values()
-    #     # mdc_logger.info("values = " + str(values))
-    #     measure = list(json.loads(v.decode()) for v in values)
-    #     # mdc_logger.info("xx = " + str(xx))
-    #     predict_time = time.time() - start
-    #     predict_json['meas_timestamp_pos'] = timestamp
-    #     predict_json['pos_x'] = predict_test[0][0]
-    #     predict_json['pos_y'] = predict_test[0][1]
-    #     predict_json['pos_z'] = predict_test[0][2]
-    #     predict_json['process_time'] = predict_time
-    #     # mdc_logger.info("predict_json = " + str(type(predict_json))) 
-    #     # mdc_logger.info(str(predict_json))
-    #     # mdc_logger.info("========*********************=========")
-    #     SDL.set(POS, UE_KEY, json.dumps(str(predict_json)).encode(), usemsgpack=False)
-    #     py_values = SDL.find_and_get(POS, UE_KEY, usemsgpack=False).values()
-    #     # mdc_logger.info("========*********************=========")
-    #     end = time.time()
-    #     mdc_logger.info("After sending data to SDL, spend time(second) : " + str(end-start))
-    #     mdc_logger.info("delta_xyz % = " + str(delta_xyz))
-    #     # mdc_logger.info("**************User add *****************")
+        ##### predict
+        # mdc_logger.info("values type = " + str(type(values))) 
+        # mdc_logger.info("values = " + str(values))
+        ten_values = list(json.loads(v.decode()) for v in values)
+        # mdc_logger.info("ten_values = " + str(ten_values))
+        data = []
+        delta_xyz = []
+        for i in range(0,10):
+            timestamp = ten_values[i]['meas_timestamp_pos']
+            if i == 0:
+                speed_x = 0
+                speed_y = 0
+                speed_z = 0
+            else:
+                speed_x = ten_values[i]['pos_x'] - ten_values[i-1]['pos_x']
+                speed_y = ten_values[i]['pos_y'] - ten_values[i-1]['pos_y']
+                speed_z = ten_values[i]['pos_z'] - ten_values[i-1]['pos_z']
+            data.append([ten_values[i]['pos_x'], ten_values[i]['pos_y'], ten_values[i]['pos_z'], speed_x, speed_y, speed_z])
+        # mdc_logger.info("============================")
+        # mdc_logger.info(data)
+        data = np.array(data)
+        data_3 = np.reshape(data, (1, data.shape[0], data.shape[1]))
+        # mdc_logger.info(data_3.shape)
+        # mdc_logger.info("============================")
+        predict_test = model.predict(data_3)
+        # mdc_logger.info("predict_test = " + str(predict_test))
+        # mdc_logger.info("timestamp = " + str(ten_values[9]['meas_timestamp_pos']))
+        predict_json = {
+                 "meas_timestamp_pos": 0,
+                 "pos_x": -100.0000000001,
+                 "pos_y": -10.0000000001,
+                 "pos_z": -1.00000000001,
+                 "process_time": 0
+        }
+        values = SDL.find_and_get(A1NS, UE_KEY, usemsgpack=False).values()
+        # mdc_logger.info("values = " + str(values))
+        measure = list(json.loads(v.decode()) for v in values)
+        # mdc_logger.info("xx = " + str(xx))
+        predict_time = time.time() - start
+        predict_json['meas_timestamp_pos'] = timestamp
+        predict_json['pos_x'] = predict_test[0][0]
+        predict_json['pos_y'] = predict_test[0][1]
+        predict_json['pos_z'] = predict_test[0][2]
+        predict_json['process_time'] = predict_time
+        # mdc_logger.info("predict_json = " + str(type(predict_json))) 
+        # mdc_logger.info(str(predict_json))
+        # mdc_logger.info("========*********************=========")
+        SDL.set(POS, UE_KEY, json.dumps(str(predict_json)).encode(), usemsgpack=False)
+        py_values = SDL.find_and_get(POS, UE_KEY, usemsgpack=False).values()
+        # mdc_logger.info("========*********************=========")
+        end = time.time()
+        mdc_logger.info("After sending data to SDL, spend time(second) : " + str(end-start))
+        mdc_logger.info("delta_xyz % = " + str(delta_xyz))
+        # mdc_logger.info("**************User add *****************")
 
     def start(self, thread=False):
         """
